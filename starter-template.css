@@ -245,6 +245,7 @@ ul.sm-logo li {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
+    background-attachment: fixed;
 }
 
 .box-card {
@@ -802,7 +803,7 @@ ul.sm-logo li {
     left: -6px;
     margin: auto;
     display: block;
-    position: absolute;
+    position: fixed;
     top: 20%;
     bottom: 20%;
     background-color: #fff;
@@ -811,6 +812,7 @@ ul.sm-logo li {
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.16);
     overflow: hidden;
     width: 60px;
+    z-index: 9;
 }
 
 .event-tabs ul {
@@ -834,4 +836,437 @@ ul.sm-logo li {
 
 .event-tabs .tablinks.active {
     background-color: rgba(23, 129, 241, 0.10);
+}
+
+.reception .sm-logo {
+    text-align: left;
+    float: left;
+}
+
+.reception .speaker-card img {
+    max-width: 120px;
+    padding: 0.8em;
+}
+
+.reception .speaker-card p {
+    margin-bottom: 12px;
+}
+
+.reception .speaker-card h3 {
+    font-size: 16px;
+}
+
+.reception .speaker-card p {
+    font-size: 12px;
+}
+
+.reception .speaker-card {
+    margin-left: 0;
+    margin-right: 2em;
+}
+
+.reception .agenda-card p {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.reception .agenda-card h3 {
+    font-size: 16px;
+}
+
+.reception .agenda-card img {
+    max-width: 40px;
+}
+
+.reception .agenda-card hr {
+    margin-top: 2em;
+}
+
+.reception .event-banner {
+}
+
+.reception .event-banner img {
+    width: 100%;
+}
+
+.reception .desk img {
+    width: 100%;
+    margin-top: -2em;
+}
+
+.event-tabs .tablinks:focus {
+    outline: 0;
+}
+
+.attendee-card {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.attendee-card img {
+    border-radius: 50%;
+    max-width: 50px;
+    float: left;
+}
+
+.attendee-card h3 {
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 16px;
+    color: #0B0A2C;
+    padding-left: 4em;
+}
+
+.attendee-card p {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Light;
+    font-size: 14px;
+    color: #0B0A2C;
+    margin-top: 0.3em;
+}
+
+.attendee-card a {
+    float: right;
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 16px;
+    color: #1781F1;
+    padding-left: 1.5em;
+}
+
+#audi .stage img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.stage {
+    bottom: 0px;
+    height: 140px;
+    position: fixed;
+    width: 100vw;
+}
+
+.stage-div {
+}
+
+#audi {
+    z-index: 0;
+}
+
+.screen {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+}
+
+.screen img {
+    border: 6px solid #0b0a2c;
+    width: 58%;
+}
+
+.screen iframe {
+    width: 60vw;
+    height: 66vh;
+}
+
+.stall .back-card {
+    background-color: #fff;
+    border-radius: 0px;
+    width: 100%;
+    height: 235px;
+    padding: 2em;
+    position: relative;
+    z-index: 0;
+}
+
+.stall .front-card {
+    background-color: #1781F1;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3em;
+    height: 90px;
+    position: relative;
+}
+
+.stall {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.stall .back-card img {
+    width: 80%;
+    padding: 1em;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.stall .front-card h3 {
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.stall .front-card a {
+    font-family: PlusJakartaDisplay-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 0em;
+}
+
+.networking-card {
+    border-radius: 16px;
+    background-color: #fff;
+    height: 270px;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.seat {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.networking-card .seat img {
+    max-width: 70px;
+}
+
+.networking-card .table {
+    background-color: #E3E4E6;
+    border-radius: 30px;
+    padding: 2.5em 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.networking-card .table img {
+    width: 100%;
+}
+
+.stall .front-card a:hover {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.stall-back {
+    position: fixed;
+    bottom: -20px;
+    width: 100vw;
+    text-align: center;
+    z-index: -1;
+}
+
+#single-stall .stall-back img {
+    width: 100%;
+}
+
+.stall-b {
+    width: 87% !important;
+    margin-bottom: -6px;
+}
+
+.stall-table {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+}
+
+.stall-table .logo-stall {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+}
+
+.stall-standee {
+    position: fixed;
+    bottom: 60px;
+    left: 17%;
+}
+
+.stall-table img {
+    max-width: 400px;
+}
+
+.stall-standee img {
+    max-width: 180px;
+    width: 180px;
+    max-height: 100%;
+}
+
+.standee-img {
+    width: auto !important;
+    top: 0px;
+    bottom: 0px;
+    right: 0;
+    left: 10px;
+    position: absolute;
+    max-width: 156px !important;
+    text-align: center;
+    padding: 0em;
+    max-height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#single-stall {
+    z-index: -9;
+}
+
+.stall-video {
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    left: 0px;
+    bottom: 40%;
+}
+
+.stall-video iframe {
+    max-height: 260px;
+    width: 36%;
+}
+
+.stall-video img {
+    position: relative;
+}
+
+.stall-info {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+}
+
+.stall-info h3 {
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 18px;
+    color: #0B0A2C;
+    text-align: left;
+}
+
+.stall-info p {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Regular;
+    font-size: 12px;
+    color: #03101A;
+    text-align: left;
+    max-width: 300px;
+}
+
+.stall-info a img {
+    width: 16px;
+    margin: 8px;
+}
+
+.stall-info a {
+    font-family: PlusJakartaDisplay-Regular;
+    font-size: 14px;
+    color: #1781F1;
+    text-align: left;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.chat-modal {
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0 14px 64px 0 rgba(0,0,0,0.30);
+    border-radius: 6px;
+    z-index: 99;
+    width: 23%;
+    right: 5%;
+    top: 15%;
+    height: 80%;
+    padding: 1em;
+    display: none;
+}
+
+.chat-modal .header h3 {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 16px;
+    color: #0B0A2C;
+    text-align: left;
+}
+
+.chat-modal .header h3 a {
+    width: 12px;
+    float: right;
+    margin: 4px 6px 6px;
+}
+
+.chat-list .avatar-img {
+    height: 42px;
+    width: 42px;
+    background-color: #0B0A2C;
+    border-radius: 50%;
+    float: left;
+}
+
+.chat-list h3 {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Regular;
+    font-size: 16px;
+    color: #0B0A2C;
+    text-align: left;
+    display: inline;
+}
+
+.chat-list p {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Light;
+    font-size: 12px;
+    color: #0B0A2C;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.chat-title {
+    float: left;
+    margin-left: 12px;
+    position: relative;
+    width: 79%;
+    margin-bottom: 1em;
+}
+
+.chat-list .chat-title img {
+    float: right;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    height: 12px;
+}
+
+.chat-list {
+    position: relative;
+}
+
+.chat-list .avatar-img img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.stall .front-card a:focus {
+}
+
+a:focus {
+    cursor: pointer;
 }

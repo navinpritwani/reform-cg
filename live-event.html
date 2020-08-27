@@ -14,37 +14,37 @@
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     </head>
-    <body class="style-bg">
+    <body class="style-bg min-vh-100">
         <div class="event-tabs align-middle">
             <ul>
                 <li>
-                    <button onclick="openCity(event, 'London')" id="defaultOpen" class="tablinks active">
+                    <button onclick="openCity(event, 'reception')" id="defaultOpen" class="tablinks active">
                         <img src="assets/imgs/reception-active.svg"/>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'Paris')">
+                    <button class="tablinks" onclick="openCity(event, 'attendee')">
                         <img src="assets/imgs/attendee.svg"/> 
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+                    <button class="tablinks" onclick="openCity(event, 'audi')">
                         <img src="assets/imgs/audi.svg"/>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+                    <button class="tablinks" onclick="openCity(event, 'expo')">
                         <img src="assets/imgs/expo.svg"/>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">
-                        <img src="assets/imgs/network.svg"/>
+                    <button class="tablinks" onclick="openCity(event, 'networking')">
+                        <img src="assets/imgs/networking.svg"/>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">
-                        <img src="assets/imgs/network.svg"/>
+                    <button class="tablinks" onclick="openCity(event, 'sponsorhub')">
+                        <img src="assets/imgs/networking.svg"/>
                     </button>
                 </li>
             </ul>
@@ -74,7 +74,7 @@
                             <a href=""><img src="assets/imgs/notification.svg"/></a>
                         </li>
                         <li>
-                            <a href=""><img src="assets/imgs/chat.svg"/></a>
+                            <a onclick="openChat()"><img src="assets/imgs/chat.svg"/></a>
                         </li>
                         <li>
                             <a href=""><img src="assets/imgs/logout.svg"/></a>
@@ -82,7 +82,528 @@
                     </ul>
                 </div>
             </div>
-        </div>         
+        </div>
+        <div class="break"></div>
+        <div class="tabcontent" id="single-stall">
+            <div class="stall-back">
+                <img src="assets/imgs/stall-back.png" class="stall-b"/>
+                <img src="assets/imgs/stall-floor.svg"/>
+            </div>
+            <div class="stall-table text-center">
+                <img src="assets/stall-table.svg"/>
+                <img src="assets/imgs/logo-stall.png" class="logo-stall"/>
+            </div>
+            <div class="stall-standee">
+                <img src="assets/stall-standee_1.svg"/>
+            </div>
+            <div class="stall-video">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+            </div>
+            <div class="stall-info">
+                <h3>Flooop Pvt. Ltd</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <a href=""><img src="assets/imgs/download.svg"/>Download Brochure</a>
+                <a href=""><img src="assets/imgs/chat.svg"/>Send Message</a>
+                <a href=""><img src="assets/imgs/contact.svg"/>Get Contact</a>
+            </div>
+        </div>
+        <div class="tabcontent" id="audi">
+            <div class="stage">
+                <img src="assets/imgs/stage.svg"/>
+            </div>
+            <div class="screen">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+            </div>
+        </div>
+        <div class="container live-event"> 
+            <div class="row reception tabcontent" id="reception">
+                <div class="event-nav col-xl-7">
+                    <ul class="nav mb-3 nav-pills" role="tablist" id="pills-tab">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="pill" href="#description" role="tab" aria-controls="pills-home" aria-selected="true">About Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#speakers" role="tab" aria-controls="pills-profile" aria-selected="false">Speakers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#agenda" role="tab" aria-controls="pills-contact" aria-selected="false">Agenda</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p>
+                        </div>
+                        <div class="tab-pane fade" id="speakers" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="row mt-4">
+                                <div class="theme-card speaker-card col-xl-3">
+                                    <img src="assets/imgs/speaker.png"/>
+                                    <h3>Andrew Chen</h3>
+                                    <p>CEO - M&X  Ltd.</p>
+                                </div>
+                                <div class="theme-card speaker-card col-xl-3">
+                                    <img src="assets/imgs/speaker.png"/>
+                                    <h3>Andrew Chen</h3>
+                                    <p>CEO - M&X  Ltd.</p>
+                                </div>
+                                <div class="theme-card speaker-card col-xl-3">
+                                    <img src="assets/imgs/speaker.png"/>
+                                    <h3>Andrew Chen</h3>
+                                    <p>CEO - M&X  Ltd.</p>
+                                </div>
+                                <div class="theme-card speaker-card col-xl-3">
+                                    <img src="assets/imgs/speaker.png"/>
+                                    <h3>Andrew Chen</h3>
+                                    <p>CEO - M&X  Ltd.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="agenda" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <div class="theme-card date-card">
+                                        <h3>2020</h3>
+                                        <div class="theme-bg">
+                                            <p>4th April</p>
+                                            <p>Saturday</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-9">
+                                    <div class="theme-card agenda-card">
+                                        <p class="float-left">02:00 PM  to 02:15 PM</p>
+                                        <h3 class="float-left">Fireside chat on Deep tech</h3>
+                                        <hr/>
+                                        <p class="text-left">Speakers</p>
+                                        <img src="assets/imgs/speaker.png"/>
+                                        <img src="assets/imgs/speaker.png"/>
+                                    </div>
+                                    <div class="theme-card agenda-card">
+                                        <p class="float-left">02:00 PM  to 02:15 PM</p>
+                                        <h3 class="float-left">Fireside chat on Deep tech</h3>
+                                        <hr/>
+                                        <p class="text-left">Speakers</p>
+                                        <img src="assets/imgs/speaker.png"/>
+                                        <img src="assets/imgs/speaker.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="event-banner">
+                        <img src="../reform/assets/event-bg.png"/>
+                    </div>
+                    <div class="desk">
+                        <img src="assets/imgs/reception-desk.svg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="attendee">
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="expo">
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a onclick="openCity(event, 'single-stall')">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="stall">
+                        <div class="back-card theme-card">
+                            <img src="assets/imgs/logo-stall.png"/>
+                        </div>
+                        <div class="front-card">
+                            <h3>Floop Pvt. Ltd</h3>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="networking">
+                <div class="col-xl-3">
+                    <div class="theme-card networking-card">
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                        <div class="table float-left">
+                            <img src="assets/imgs/network-logo.png"/>
+                        </div>
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="theme-card networking-card">
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                        <div class="table float-left">
+                            <img src="assets/imgs/network-logo.png"/>
+                        </div>
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="theme-card networking-card">
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                        <div class="table float-left">
+                            <img src="assets/imgs/network-logo.png"/>
+                        </div>
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="theme-card networking-card">
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                        <div class="table float-left">
+                            <img src="assets/imgs/network-logo.png"/>
+                        </div>
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="theme-card networking-card">
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                        <div class="table float-left">
+                            <img src="assets/imgs/network-logo.png"/>
+                        </div>
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="theme-card networking-card">
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                        <div class="table float-left">
+                            <img src="assets/imgs/network-logo.png"/>
+                        </div>
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="theme-card networking-card">
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                        <div class="table float-left">
+                            <img src="assets/imgs/network-logo.png"/>
+                        </div>
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="theme-card networking-card">
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                        <div class="table float-left">
+                            <img src="assets/imgs/network-logo.png"/>
+                        </div>
+                        <div class="seat">
+                            <img src="assets/imgs/seat-full.svg" class="float-left"/>
+                            <img src="assets/imgs/seat-empty.svg" class="float-right"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="sponsorhub">
+                <div class="col-xl-12 text-center">Sponsorhub</div>
+            </div>
+        </div>
+        <div class="chat-modal" id="chat-modal">
+            <div class="header">
+                <h3><a onclick="closeChat()"><img src="assets/imgs/close.svg" class="w-100"/></a>Chat Messages</h3>
+                <hr/>
+            </div>
+            <div class="chat-list">
+                <div class="avatar-img"></div>
+                <div class="chat-title">
+                    <h3>Open Chat</h3>
+                    <p>Mike : Gald to talk to you ..</p>
+                    <img src="assets/imgs/arrow-right.svg"/>
+                </div>
+            </div>
+            <div class="chat-list">
+                <div class="avatar-img">
+                    <img src="assets/imgs/speaker.png"/>
+                </div>
+                <div class="chat-title">
+                    <h3>Sameual Johnson</h3>
+                    <p>Gald to talk to you ..</p>
+                    <img src="assets/imgs/arrow-right.svg"/>
+                </div>
+            </div>
+        </div>
         <div class="break"></div>
         <!-- /.container -->
         <!-- Bootstrap core JavaScript
@@ -93,5 +614,36 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+   var temp = $(tablinks[i].childNodes[1]).attr('src');
+      temp = temp.replace("-active","");
+      tablinks[i].childNodes[1].src = temp;
+      
+  }
+  document.getElementById(cityName).style.display = "flex";
+  evt.currentTarget.className += " active";
+     evt.currentTarget.childNodes[1].setAttribute("src", "assets/imgs/" + cityName + "-active.svg");
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+    
+function openChat() {
+	document.getElementById("chat-modal").style.display="block";
+}
+    
+function closeChat() {
+	document.getElementById("chat-modal").style.display="none";
+}
+</script>
     </body>
 </html>

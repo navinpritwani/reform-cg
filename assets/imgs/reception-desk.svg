@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="562px" height="208px" viewBox="0 0 562 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 16</title>
+    <defs>
+        <filter x="-2.2%" y="-6.3%" width="104.4%" height="112.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event-Live---reception" transform="translate(-711.000000, -410.000000)">
+            <g id="Group-16" filter="url(#filter-1)" transform="translate(720.000000, 419.000000)">
+                <path d="M0,0 L544,0 L544,128 C544,152.852814 523.852814,173 499,173 L45,173 C20.1471863,173 3.04359188e-15,152.852814 0,128 L0,0 L0,0 Z" id="Rectangle" fill="#F6F4F4"></path>
+                <rect id="Rectangle" fill="#0B0A2C" x="61" y="173" width="426" height="17"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
