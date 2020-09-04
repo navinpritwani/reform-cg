@@ -79,7 +79,7 @@ body {
 }
 
 .break {
-    height: 4em;
+    height: 3em;
     width: 100%;
 }
 
@@ -246,6 +246,8 @@ ul.sm-logo li {
     background-position: center top;
     background-size: contain;
     background-attachment: fixed;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .box-card {
@@ -545,8 +547,8 @@ ul.sm-logo li {
     border-radius: 6px;
     background-color: #fff;
     text-align: center;
-    margin-left: 2em;
     margin-bottom: 2em;
+    padding: 0.5em;
 }
 
 .speaker-card img {
@@ -554,7 +556,7 @@ ul.sm-logo li {
     height: auto;
     border-radius: 50%;
     padding: 1em;
-    max-width: 180px;
+    max-width: 140px;
 }
 
 .speaker-card h3 {
@@ -804,8 +806,8 @@ ul.sm-logo li {
     margin: auto;
     display: block;
     position: fixed;
-    top: 20%;
-    bottom: 20%;
+    top: 15%;
+    bottom: 15%;
     background-color: #fff;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -831,7 +833,7 @@ ul.sm-logo li {
 }
 
 .event-tabs ul li {
-    height: 16.66%;
+    height: 12.5%;
 }
 
 .event-tabs .tablinks.active {
@@ -901,37 +903,38 @@ ul.sm-logo li {
 .attendee-card {
     background-color: #fff;
     border-radius: 6px;
-    padding: 1em;
-    margin-bottom: 3em;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    text-align: center;
 }
 
 .attendee-card img {
     border-radius: 50%;
     max-width: 50px;
-    float: left;
 }
 
 .attendee-card h3 {
     font-family: PlusJakartaDisplay-Medium;
-    font-size: 16px;
+    font-size: 14px;
     color: #0B0A2C;
-    padding-left: 4em;
+    text-align: center;
+    margin-top: 0.3em;
 }
 
 .attendee-card p {
     opacity: 0.7;
     font-family: PlusJakartaDisplay-Light;
-    font-size: 14px;
+    font-size: 12px;
     color: #0B0A2C;
     margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 .attendee-card a {
-    float: right;
     font-family: PlusJakartaDisplay-Medium;
-    font-size: 16px;
+    font-size: 14px;
     color: #1781F1;
-    padding-left: 1.5em;
+    display: block;
 }
 
 #audi .stage img {
@@ -995,6 +998,7 @@ ul.sm-logo li {
 .stall {
     text-align: center;
     margin-bottom: 1em;
+    position: relative;
 }
 
 .stall .back-card img {
@@ -1188,8 +1192,8 @@ ul.sm-logo li {
     box-shadow: 0 14px 64px 0 rgba(0,0,0,0.30);
     border-radius: 6px;
     z-index: 99;
-    width: 23%;
-    right: 5%;
+    width: 20%;
+    right: 1%;
     top: 15%;
     height: 80%;
     padding: 1em;
@@ -1240,7 +1244,7 @@ ul.sm-logo li {
     float: left;
     margin-left: 12px;
     position: relative;
-    width: 79%;
+    width: 68%;
     margin-bottom: 1em;
 }
 
@@ -1269,4 +1273,100 @@ ul.sm-logo li {
 
 a:focus {
     cursor: pointer;
+}
+
+.theme-modal {
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0 14px 64px 0 rgba(0,0,0,0.30);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 30px;
+    max-height: 70%;
+    max-width: 60%;
+}
+
+.theme-modal .speaker-card img {
+    max-width: 170px;
+}
+
+.event-tabs .tablinks p {
+    font-size: 10px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.71);
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.prime-stall .stall .back-card img {
+    max-width: 220px;
+}
+
+.prime-stall .stall .front-card {
+    width: 50%;
+}
+
+.live-event {
+}
+
+.event-topbar {
+    position: fixed;
+    width: 84%;
+    z-index: 999999;
+}
+
+.event-break {
+    height: 7em;
+}
+
+.premium-label {
+    position: absolute;
+    width: 20%;
+    top: -18px;
+    left: -18px;
+    z-index: 2;
+}
+
+.stage-left-banner {
+    width: 9%;
+    position: absolute;
+    bottom: 0px;
+    left: 8em;
+}
+
+.stage-left-banner img {
+    border: 0 solid;
+    width: 100%;
+}
+
+.stage-right-banner {
+    right: 8em;
+    left: auto;
+}
+
+.stall-backbutton {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.stall-backbutton a img {
+    width: 16px;
+    margin: 8px 12px 8px 8px;
+}
+
+.stall-backbutton a {
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 18px;
+    color: #1781F1;
+    text-align: left;
+}
+
+#sponsors .attendee-card img {
+    border-radius: 0;
+    max-width: 200px;
+    margin: 30px;
 }

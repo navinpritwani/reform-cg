@@ -23,13 +23,23 @@
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'attendee')">
-                        <img src="assets/imgs/attendee.svg"/> 
+                    <button class="tablinks" onclick="openCity(event, 'speaker')">
+                        <img src="assets/imgs/speaker.svg"/>
                     </button>
                 </li>
                 <li>
                     <button class="tablinks" onclick="openCity(event, 'audi')">
                         <img src="assets/imgs/audi.svg"/>
+                    </button>
+                </li>
+                <li>
+                    <button class="tablinks" onclick="openCity(event, 'agenda')">
+                        <img src="assets/imgs/agenda.svg"/>
+                    </button>
+                </li>
+                <li>
+                    <button class="tablinks" onclick="openCity(event, 'attendee')">
+                        <img src="assets/imgs/attendee.svg"/> 
                     </button>
                 </li>
                 <li>
@@ -43,14 +53,14 @@
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'sponsorhub')">
-                        <img src="assets/imgs/networking.svg"/>
+                    <button class="tablinks" onclick="openCity(event, 'sponsors')">
+                        <img src="assets/imgs/sponsors.svg"/>
                     </button>
                 </li>
             </ul>
         </div>
-        <div class="container live-event">
-            <div class="row">
+        <div class="container live-event position-relative">
+            <div class="row event-topbar">
                 <div class="col-xl-3">
                     <div class="content">
                         <h3>Lockdown Summit 2020</h3>
@@ -83,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="break"></div>
+        <div class="break event-break"></div>
         <div class="tabcontent" id="single-stall">
             <div class="stall-back">
                 <img src="assets/imgs/stall-back.png" class="stall-b"/>
@@ -107,12 +117,21 @@
                 <a href=""><img src="assets/imgs/chat.svg"/>Send Message</a>
                 <a href=""><img src="assets/imgs/contact.svg"/>Get Contact</a>
             </div>
+            <div class="stall-backbutton">
+                <a href=""><img src="assets/imgs/back-icon.svg"/>Back</a>
+            </div>
         </div>
         <div class="tabcontent" id="audi">
             <div class="stage">
                 <img src="assets/imgs/stage.svg"/>
             </div>
             <div class="screen">
+                <div class="stage-right-banner stage-left-banner">
+                    <img src="assets/imgs/stage-banner-right.svg"/>
+                </div>
+                <div class="stage-left-banner">
+                    <img src="assets/imgs/stage-banner-left.svg"/>
+                </div>
                 <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
             </div>
@@ -120,81 +139,11 @@
         <div class="container live-event"> 
             <div class="row reception tabcontent" id="reception">
                 <div class="event-nav col-xl-7">
-                    <ul class="nav mb-3 nav-pills" role="tablist" id="pills-tab">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-toggle="pill" href="#description" role="tab" aria-controls="pills-home" aria-selected="true">About Event</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#speakers" role="tab" aria-controls="pills-profile" aria-selected="false">Speakers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#agenda" role="tab" aria-controls="pills-contact" aria-selected="false">Agenda</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="pills-home-tab">
-                            <p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p>
-                        </div>
-                        <div class="tab-pane fade" id="speakers" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <div class="row mt-4">
-                                <div class="theme-card speaker-card col-xl-3">
-                                    <img src="assets/imgs/speaker.png"/>
-                                    <h3>Andrew Chen</h3>
-                                    <p>CEO - M&X  Ltd.</p>
-                                </div>
-                                <div class="theme-card speaker-card col-xl-3">
-                                    <img src="assets/imgs/speaker.png"/>
-                                    <h3>Andrew Chen</h3>
-                                    <p>CEO - M&X  Ltd.</p>
-                                </div>
-                                <div class="theme-card speaker-card col-xl-3">
-                                    <img src="assets/imgs/speaker.png"/>
-                                    <h3>Andrew Chen</h3>
-                                    <p>CEO - M&X  Ltd.</p>
-                                </div>
-                                <div class="theme-card speaker-card col-xl-3">
-                                    <img src="assets/imgs/speaker.png"/>
-                                    <h3>Andrew Chen</h3>
-                                    <p>CEO - M&X  Ltd.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="agenda" role="tabpanel" aria-labelledby="pills-contact-tab">
-                            <div class="row">
-                                <div class="col-xl-3">
-                                    <div class="theme-card date-card">
-                                        <h3>2020</h3>
-                                        <div class="theme-bg">
-                                            <p>4th April</p>
-                                            <p>Saturday</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-9">
-                                    <div class="theme-card agenda-card">
-                                        <p class="float-left">02:00 PM  to 02:15 PM</p>
-                                        <h3 class="float-left">Fireside chat on Deep tech</h3>
-                                        <hr/>
-                                        <p class="text-left">Speakers</p>
-                                        <img src="assets/imgs/speaker.png"/>
-                                        <img src="assets/imgs/speaker.png"/>
-                                    </div>
-                                    <div class="theme-card agenda-card">
-                                        <p class="float-left">02:00 PM  to 02:15 PM</p>
-                                        <h3 class="float-left">Fireside chat on Deep tech</h3>
-                                        <hr/>
-                                        <p class="text-left">Speakers</p>
-                                        <img src="assets/imgs/speaker.png"/>
-                                        <img src="assets/imgs/speaker.png"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p>
                 </div>
                 <div class="col-xl-5">
                     <div class="event-banner">
-                        <img src="../reform/assets/event-bg.png"/>
+                        <img src="assets/event-bg.png"/>
                     </div>
                     <div class="desk">
                         <img src="assets/imgs/reception-desk.svg"/>
@@ -202,15 +151,15 @@
                 </div>
             </div>
             <div class="row tabcontent" id="attendee">
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="assets/imgs/speaker.png"/>
-                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <h3>Sameual Johnson</h3>
                         <a href="">Chat</a>
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -218,7 +167,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -226,7 +175,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -234,7 +183,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -242,7 +191,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -250,7 +199,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -258,7 +207,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -266,7 +215,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -274,7 +223,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -282,7 +231,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -290,7 +239,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -298,7 +247,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -306,7 +255,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -314,7 +263,7 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -322,7 +271,31 @@
                         <a href="">View Profile</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="attendee-card theme-card">
+                        <img src="../reform/assets/imgs/speaker.png"/>
+                        <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
+                        <a href="">Chat</a>
+                        <a href="">View Profile</a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="../reform/assets/imgs/speaker.png"/>
                         <h3>Sameual Johnson<p>Operation Manager at XYZ Comapany</p></h3>
@@ -332,124 +305,122 @@
                 </div>
             </div>
             <div class="row tabcontent" id="expo">
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
+                <div class="col-xl-12">
+                    <div class="row flex-nowrap">
+                        <div class="text-center col-xl-6 prime-stall">
+                            <div class="stall">
+                                <img src="assets/imgs/Asset%201@2x.png" class="premium-label"/>
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a onclick="openCity(event, 'single-stall')">Explore</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a onclick="openCity(event, 'single-stall')">Explore</a>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a onclick="openCity(event, 'single-stall')">Explore</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
-                        </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
-                        </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
-                        </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
-                        </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
+                <div class="col-xl-12">
+                    <div class="row flex-nowrap">
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a onclick="openCity(event, 'single-stall')">Explore</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a onclick="openCity(event, 'single-stall')">Explore</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
-                        </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
-                        </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center col-xl-3">
-                    <div class="stall">
-                        <div class="back-card theme-card">
-                            <img src="assets/imgs/logo-stall.png"/>
-                        </div>
-                        <div class="front-card">
-                            <h3>Floop Pvt. Ltd</h3>
-                            <a href="">Explore</a>
+                        <div class="text-center col-xl-3">
+                            <div class="stall">
+                                <div class="back-card theme-card">
+                                    <img src="assets/imgs/logo-stall.png"/>
+                                </div>
+                                <div class="front-card">
+                                    <h3>Floop Pvt. Ltd</h3>
+                                    <a href="">Explore</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -576,8 +547,105 @@
                     </div>
                 </div>
             </div>
-            <div class="row tabcontent" id="sponsorhub">
-                <div class="col-xl-12 text-center">Sponsorhub</div>
+            <div class="row tabcontent" id="sponsors">
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3>Infocomm - South Asia<p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3>Infocomm - South Asia<p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3>Infocomm - South Asia<p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3>Infocomm - South Asia<p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+                <div class="text-center col-xl-3">
+                    <div class="attendee-card theme-card">
+                        <img src="assets/imgs/sponsor-logo.png"/>
+                        <h3>Infocomm - South Asia<p>Prime Sponsor</p></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="speaker">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="theme-card speaker-card">
+                            <img src="assets/imgs/speaker.png"/>
+                            <h3>Andrew Chen</h3>
+                            <p>CEO - M&X  Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row tabcontent" id="agenda">
+                <div class="col-xl-2">
+                    <div class="theme-card date-card">
+                        <h3>2020</h3>
+                        <div class="theme-bg">
+                            <p>4th April</p>
+                            <p>Saturday</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-10">
+                    <div class="theme-card agenda-card">
+                        <p class="float-left">02:00 PM  to 02:15 PM</p>
+                        <h3 class="float-left">Fireside chat on Deep tech</h3>
+                        <hr/>
+                        <p class="text-left">Speakers</p>
+                        <img src="assets/imgs/speaker.png"/>
+                        <img src="assets/imgs/speaker.png"/>
+                    </div>
+                    <div class="theme-card agenda-card">
+                        <p class="float-left">02:00 PM  to 02:15 PM</p>
+                        <h3 class="float-left">Fireside chat on Deep tech</h3>
+                        <hr/>
+                        <p class="text-left">Speakers</p>
+                        <img src="assets/imgs/speaker.png"/>
+                        <img src="assets/imgs/speaker.png"/>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="chat-modal" id="chat-modal">
@@ -603,6 +671,25 @@
                     <img src="assets/imgs/arrow-right.svg"/>
                 </div>
             </div>
+        </div>
+        <div class="theme-modal p-4 d-none">
+            <div class="speaker-card text-left ml-0">
+                <img src="assets/imgs/speaker.png" class="float-left mr-3"/>
+                <h3 class="text-left pt-5">Andrew Chen</h3>
+                <p class="text-left">CEO - M&X  Ltd.</p>
+                <ul class="sm-logo text-left"> 
+                    <li>
+                        <a href=""><img src="assets/imgs/fb-link.svg"/></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
+                    </li>                     
+                </ul>
+            </div>
+            <hr/>
         </div>
         <div class="break"></div>
         <!-- /.container -->
