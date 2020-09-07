@@ -48,7 +48,7 @@ body {
 }
 
 .theme-text {
-    color: #1781f1;
+    color: #1781f1 !important;
 }
 
 .slider-gradient .container p {
@@ -204,7 +204,7 @@ body {
 }
 
 ul.sm-logo li a {
-    padding: 6px;
+    display: inline;
 }
 
 ul.sm-logo li {
@@ -607,6 +607,8 @@ ul.sm-logo li {
     border-radius: 6px;
     background-color: #fff;
     padding: 1em;
+    margin-bottom: 1em;
+    opacity: 0.6;
 }
 
 .date-card h3 {
@@ -619,6 +621,7 @@ ul.sm-logo li {
 
 .date-card div {
     padding: 0.5em;
+    background-color: #b3b1b1;
 }
 
 .date-card div p {
@@ -671,7 +674,7 @@ ul.sm-logo li {
 
 .registration-card h3 {
     font-family: PlusJakartaDisplay-Medium;
-    font-size: 20px;
+    font-size: 18px;
     color: #0B0A2C;
     text-align: left;
     margin-bottom: 1em;
@@ -906,6 +909,7 @@ ul.sm-logo li {
     padding: 0.5em;
     margin-bottom: 2em;
     text-align: center;
+    min-height: 170px;
 }
 
 .attendee-card img {
@@ -1276,7 +1280,7 @@ a:focus {
 }
 
 .theme-modal {
-    position: absolute;
+    position: fixed;
     background: #FFFFFF;
     box-shadow: 0 14px 64px 0 rgba(0,0,0,0.30);
     top: 0;
@@ -1284,13 +1288,14 @@ a:focus {
     left: 0;
     right: 0;
     margin: auto;
-    border-radius: 30px;
-    max-height: 70%;
+    border-radius: 12px;
     max-width: 60%;
+    overflow: hidden;
 }
 
 .theme-modal .speaker-card img {
-    max-width: 170px;
+    max-width: 100px;
+    padding: 0;
 }
 
 .event-tabs .tablinks p {
@@ -1369,4 +1374,157 @@ a:focus {
     border-radius: 0;
     max-width: 200px;
     margin: 30px;
+}
+
+.section-title {
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 18px;
+    color: #0B0A2C;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+}
+
+.organiser-card img {
+    float: left;
+    margin-right: 12px;
+    max-width: 48px;
+}
+
+.organiser-card h4 {
+    font-family: PlusJakartaDisplay-Regular;
+    font-size: 16px;
+    color: #0B0A2C;
+    text-align: left;
+    margin-bottom: 04px;
+}
+
+.organiser-card p {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Light;
+    font-size: 12px;
+    color: #0B0A2C;
+    text-align: left;
+}
+
+#speakers .speaker-card {
+}
+
+.organiser-card .sm-logo {
+    margin-bottom: 0;
+    margin-top: 0.4em;
+}
+
+.organiser-card .sm-logo li a img {
+    width: 16px;
+}
+
+.reception .organiser-card h3 {
+    font-size: 16px;
+}
+
+.reception .organiser-card h4 {
+    font-size: 14px;
+}
+
+.reception .organiser-card img {
+    max-width: 40px;
+}
+
+.reception .organiser-card .sm-logo {
+}
+
+.reception .organiser-card {
+    margin-top: 1em;
+}
+
+.live-event #speaker .col-xl-2 {
+    padding: 0px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#speaker-modal {
+    height: 60vh;
+}
+
+.theme-modal .speaker-card {
+    margin-bottom: 0px;
+}
+
+.about-speaker h4 {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 18px;
+    color: #0B0A2C;
+}
+
+.about-speaker p {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Regular;
+    font-size: 14px;
+    color: #0B0A2C;
+    text-align: left;
+}
+
+.time {
+    font-family: PlusJakartaDisplay-Regular;
+    font-size: 16px;
+    color: #0B0A2C;
+    text-align: center;
+}
+
+.topic {
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 16px;
+    color: #0B0A2C;
+    opacity: 1;
+}
+
+.about-speaker p span {
+    margin-right: 2em;
+}
+
+.topic a {
+    color: #1781f1;
+}
+
+.date-card.active {
+    opacity: 1;
+}
+
+.date-card.active div {
+    background-color: #1781F1;
+}
+
+#atendee-modal {
+    max-height: 40%;
+}
+
+#atendee-modal .speaker-card img {
+    max-width: 8;
+}
+
+#sponsor-modal {
+    max-height: 70%;
+}
+
+#sponsor-modal h3 {
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 18px;
+    color: #0B0A2C;
+}
+
+#sponsor-modal img {
+    width: 100%;
+}
+
+.video-frame {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.video-frame iframe {
+    width: 100%;
 }
