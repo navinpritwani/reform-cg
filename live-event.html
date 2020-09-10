@@ -14,47 +14,71 @@
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     </head>
-    <body class="style-bg" style="max-height: 80vh;">
+    <body class="style-bg">
         <div class="event-tabs align-middle">
             <ul>
                 <li>
-                    <button onclick="openCity(event, 'reception')" id="defaultOpen" class="tablinks active">
+                    <button onclick="openCity(event, 'reception')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)" id="defaultOpen" class="tablinks active">
                         <img src="assets/imgs/reception-active.svg"/>
+                        <div class="label">
+                            <span>Reception</span>
+                        </div>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'speaker')">
+                    <button class="tablinks" onclick="openCity(event, 'speaker')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
                         <img src="assets/imgs/speaker.svg"/>
+                        <div class="label">
+                            <span>Speakers</span>
+                        </div>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'audi')">
+                    <button class="tablinks" onclick="openCity(event, 'audi')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
                         <img src="assets/imgs/audi.svg"/>
+                        <div class="label">
+                            <span>Audi</span>
+                        </div>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'agenda')">
+                    <button class="tablinks" onclick="openCity(event, 'agenda')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
                         <img src="assets/imgs/agenda.svg"/>
+                        <div class="label">
+                            <span>Agenda</span>
+                        </div>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'attendee')">
-                        <img src="assets/imgs/attendee.svg"/> 
+                    <button class="tablinks" onclick="openCity(event, 'attendee')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
+                        <img src="assets/imgs/attendee.svg"/>
+                        <div class="label">
+                            <span>Attendees</span>
+                        </div>                         
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'expo')">
+                    <button class="tablinks" onclick="openCity(event, 'expo')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
                         <img src="assets/imgs/expo.svg"/>
+                        <div class="label">
+                            <span>Expo</span>
+                        </div>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'networking')">
+                    <button class="tablinks" onclick="openCity(event, 'networking')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
                         <img src="assets/imgs/networking.svg"/>
+                        <div class="label">
+                            <span>Networking</span>
+                        </div>
                     </button>
                 </li>
                 <li>
-                    <button class="tablinks" onclick="openCity(event, 'sponsors')">
+                    <button class="tablinks" onclick="openCity(event, 'sponsors')" onmouseover="showLabel(this)" onmouseout="hideLabel(this)">
                         <img src="assets/imgs/sponsors.svg"/>
+                        <div class="label">
+                            <span>Sponsors</span>
+                        </div>
                     </button>
                 </li>
             </ul>
@@ -173,7 +197,7 @@
                                         <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
                                     </li>
                                     <li>
-                                        <a href=""></a>
+                                        <a href=""><img src="assets/imgs/web-icon.svg"/></a>
                                     </li>                                     
                                 </ul>
                             </div>
@@ -195,8 +219,8 @@
                                         <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
                                     </li>
                                     <li>
-                                        <a href=""></a>
-                                    </li>                                     
+                                        <a href=""><img src="assets/imgs/web-icon.svg"/></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -208,11 +232,11 @@
                     </div>
                     <div class="desk">
                         <img src="assets/imgs/reception-desk.svg"/>
+                        <img src="assets/partner-logo.png" class="desklogo">
                     </div>
                 </div>
             </div>
             <div class="row tabcontent" id="attendee">
-                <h3 class="section-title">Attende</h3>
                 <div class="col-xl-2">
                     <div class="attendee-card theme-card">
                         <img src="assets/imgs/speaker.png"/>
@@ -650,7 +674,6 @@
                 </div>
             </div>
             <div class="row tabcontent" id="speaker">
-                <h3 class="section-title">Speakers</h3>
                 <div class="row">
                     <div class="col-xl-2">
                         <div class="theme-card speaker-card">
@@ -697,7 +720,6 @@
                 </div>
             </div>
             <div class="row tabcontent" id="agenda">
-                <h3 class="section-title">Agenda</h3>
                 <div class="col-xl-2">
                     <div class="theme-card date-card active">
                         <h3>2020</h3>
@@ -717,7 +739,7 @@
                 <div class="col-xl-10">
                     <div class="theme-card agenda-card">
                         <p class="float-left">02:00 PM  to 02:15 PM</p>
-                        <h3 class="float-left">Fireside chat on Deep tech</h3>
+                        <h3 class="float-left">Fireside chat on Deep tech<br> <span> Despription</span></h3>
                         <hr/>
                         <p class="text-left">Speakers</p>
                         <img src="assets/imgs/speaker.png"/>
@@ -726,7 +748,7 @@
                     </div>
                     <div class="theme-card agenda-card">
                         <p class="float-left">02:00 PM  to 02:15 PM</p>
-                        <h3 class="float-left">Fireside chat on Deep tech</h3>
+                        <h3 class="float-left">Fireside chat on Deep tech<br><span> Despription</span></h3>
                         <hr/>
                         <p class="text-left">Speakers</p>
                         <img src="assets/imgs/speaker.png"/>
@@ -818,13 +840,34 @@
             <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
             <h3>Infocom</h3>
             <hr/>
-            <div class="video-frame">
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/AmvyrzqqTv8">
+            <div class="row">
+                <div class="col-xl-7">
+                    <div class="video-frame">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/AmvyrzqqTv8">
 </iframe>
-            </div>
-            <div class="about-speaker">
-                <h4>About</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="about-speaker">
+                        <img src="assets/imgs/sponsor-logo.png">
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <ul class="sm-logo"> 
+                            <li>
+                                <a href=""><img src="assets/imgs/fb-link.svg"/></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="assets/imgs/web-icon.svg"/></a>
+                            </li>                             
+                        </ul>
+                        <a class="btn theme-btn" href="#">Connect</a>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- /.container -->
@@ -865,6 +908,13 @@ function openChat() {
     
 function closeChat() {
 	document.getElementById("chat-modal").style.display="none";
+}
+    
+function showLabel(x) {
+    x.children[1].style.display = "block" ;
+}
+function hideLabel(x) {
+    x.children[1].style.display = "none" ;
 }
 </script>
     </body>
