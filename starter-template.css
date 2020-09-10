@@ -38,7 +38,7 @@ body {
 }
 
 .theme-h1 {
-    font-family: PlusJakartaDisplay-Bold;
+    font-family: plus_jakarta_displaybold;
     font-size: 48px;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .theme-p {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Light;
+    font-family: plus_jakarta_displaylight;
     font-size: 16px;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .theme-h2 {
-    font-family: PlusJakartaDisplay-Bold;
+    font-family: plus_jakarta_displaybold;
     font-size: 32px;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .card-header-pills .nav-item .nav-link {
-    font-family: PlusJakartaDisplay-regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 18px;
     text-align: center;
     margin-right: 18px;
@@ -129,7 +129,7 @@ body {
 }
 
 .partners h2 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 24px;
     color: #0B0A2C;
     letter-spacing: 1.33px;
@@ -152,7 +152,7 @@ body {
 }
 
 .mail-subscribe h2 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 25px;
     color: #0B0A2C;
     text-align: left;
@@ -212,7 +212,7 @@ ul.sm-logo li {
 }
 
 .footer h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 24px;
     color: #0B0A2C;
     text-align: left;
@@ -234,7 +234,7 @@ ul.sm-logo li {
 
 .footer .footer-links ul li a {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 16px;
     color: #0B0A2C;
     text-align: left;
@@ -278,7 +278,7 @@ ul.sm-logo li {
 }
 
 .form-box h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 25px;
     color: #0B0A2C;
 }
@@ -288,7 +288,7 @@ ul.sm-logo li {
 }
 
 .form-box .form-group label {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #0B0A2C;
     float: left;
@@ -373,13 +373,13 @@ ul.sm-logo li {
 }
 
 .event-slide .theme-card .event-title h2 {
-    font-family: PlusJakartaDisplay-Bold;
+    font-family: plus_jakarta_displaybold;
     font-size: 28px;
     color: #FFFFFF;
 }
 
 .event-slide .theme-card .event-title p {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #FFFFFF;
     text-align: left;
@@ -417,7 +417,7 @@ ul.sm-logo li {
 }
 
 .event-card h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 24px;
     color: #0B0A2C;
 }
@@ -433,7 +433,7 @@ ul.sm-logo li {
 
 .event-card p span {
     padding-left: 0.5em;
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #0B0A2C;
     text-align: left;
@@ -472,7 +472,7 @@ ul.sm-logo li {
 }
 
 .video-card h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 20px;
     color: #FFFFFF;
     text-align: left;
@@ -482,7 +482,7 @@ ul.sm-logo li {
 }
 
 .event-title .content h3 {
-    font-family: PlusJakartaDisplay-Bold;
+    font-family: plus_jakarta_displaybold;
     font-size: 28px;
     color: #0B0A2C;
     text-align: left;
@@ -490,7 +490,7 @@ ul.sm-logo li {
 
 .event-title .content p span {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Bold;
+    font-family: plus_jakarta_displaybold;
     font-size: 18px;
     color: #0B0A2C;
     text-align: left;
@@ -504,7 +504,7 @@ ul.sm-logo li {
 }
 
 .timeline {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #1781F1;
     text-align: right;
@@ -525,7 +525,7 @@ ul.sm-logo li {
 
 .event-nav .nav-pills .nav-item .nav-link {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Light;
+    font-family: plus_jakarta_displaylight;
     font-size: 18px;
     color: #0B0A2C;
     text-align: center;
@@ -537,7 +537,7 @@ ul.sm-logo li {
 }
 
 .event-nav .nav-pills .nav-item .nav-link.active {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     opacity: 1;
     background: transparent;
     border-bottom: 3px solid #0b0a2b;
@@ -560,7 +560,7 @@ ul.sm-logo li {
 }
 
 .speaker-card h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #0B0A2C;
     text-align: center;
@@ -568,7 +568,7 @@ ul.sm-logo li {
 
 .speaker-card p {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Light;
+    font-family: plus_jakarta_displaylight;
     font-size: 16px;
     color: #0B0A2C;
     text-align: center;
@@ -594,7 +594,7 @@ ul.sm-logo li {
 }
 
 .sponsors div h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #0B0A2C;
     text-align: center;
@@ -612,7 +612,7 @@ ul.sm-logo li {
 }
 
 .date-card h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #0B0A2C;
     text-align: center;
@@ -625,7 +625,7 @@ ul.sm-logo li {
 }
 
 .date-card div p {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 14px;
     color: #FFFFFF;
     text-align: center;
@@ -640,14 +640,14 @@ ul.sm-logo li {
 }
 
 .agenda-card p {
-    font-family: PlusJakartaDisplay-Regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 16px;
     color: #0B0A2C;
     text-align: center;
 }
 
 .agenda-card h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #0B0A2C;
     padding-left: 1.5em;
@@ -673,7 +673,7 @@ ul.sm-logo li {
 }
 
 .registration-card h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #0B0A2C;
     text-align: left;
@@ -682,13 +682,13 @@ ul.sm-logo li {
 
 .registration-card p .head {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Light;
+    font-family: plus_jakarta_displaylight;
     font-size: 14px;
     color: #0B0A2C;
 }
 
 .registration-card p .field {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 14px;
     color: #0B0A2C;
     padding-left: 1em;
@@ -706,7 +706,7 @@ ul.sm-logo li {
 }
 
 .live-event .content h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 20px;
     color: #0B0A2C;
     margin-bottom: 8px;
@@ -714,7 +714,7 @@ ul.sm-logo li {
 
 .live-event .content p span {
     padding-left: 0.5em;
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #0B0A2C;
     text-align: left;
@@ -742,7 +742,7 @@ ul.sm-logo li {
 }
 
 .live-event .live-card h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #FFFFFF;
     text-align: left;
@@ -766,7 +766,7 @@ ul.sm-logo li {
 
 .live-event .live-card p {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Light;
+    font-family: plus_jakarta_displaylight;
     font-size: 16px;
     color: #FFFFFF;
     text-align: left;
@@ -778,7 +778,7 @@ ul.sm-logo li {
 .live-event .live-card a {
     display: inline;
     float: right;
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #1781F1;
     text-align: right;
@@ -918,7 +918,7 @@ ul.sm-logo li {
 }
 
 .attendee-card h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 14px;
     color: #0B0A2C;
     text-align: center;
@@ -927,7 +927,7 @@ ul.sm-logo li {
 
 .attendee-card p {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Light;
+    font-family: plus_jakarta_displaylight;
     font-size: 12px;
     color: #0B0A2C;
     margin-top: 0.3em;
@@ -935,7 +935,7 @@ ul.sm-logo li {
 }
 
 .attendee-card a {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 14px;
     color: #1781F1;
     display: block;
@@ -1018,7 +1018,7 @@ ul.sm-logo li {
 }
 
 .stall .front-card h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #FFFFFF;
     text-align: center;
@@ -1026,7 +1026,7 @@ ul.sm-logo li {
 }
 
 .stall .front-card a {
-    font-family: PlusJakartaDisplay-Regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 14px;
     color: #FFFFFF;
     text-align: center;
@@ -1036,7 +1036,7 @@ ul.sm-logo li {
 .networking-card {
     border-radius: 16px;
     background-color: #fff;
-    height: 270px;
+    height: 260px;
     padding: 1em;
     margin-bottom: 2em;
 }
@@ -1161,7 +1161,7 @@ ul.sm-logo li {
 }
 
 .stall-info h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #0B0A2C;
     text-align: left;
@@ -1169,7 +1169,7 @@ ul.sm-logo li {
 
 .stall-info p {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 12px;
     color: #03101A;
     text-align: left;
@@ -1182,7 +1182,7 @@ ul.sm-logo li {
 }
 
 .stall-info a {
-    font-family: PlusJakartaDisplay-Regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 14px;
     color: #1781F1;
     text-align: left;
@@ -1206,7 +1206,7 @@ ul.sm-logo li {
 
 .chat-modal .header h3 {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #0B0A2C;
     text-align: left;
@@ -1228,7 +1228,7 @@ ul.sm-logo li {
 
 .chat-list h3 {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 16px;
     color: #0B0A2C;
     text-align: left;
@@ -1237,7 +1237,7 @@ ul.sm-logo li {
 
 .chat-list p {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Light;
+    font-family: plus_jakarta_displaylight;
     font-size: 12px;
     color: #0B0A2C;
     text-align: left;
@@ -1364,7 +1364,7 @@ a:focus {
 }
 
 .stall-backbutton a {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #1781F1;
     text-align: left;
@@ -1377,7 +1377,7 @@ a:focus {
 }
 
 .section-title {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #0B0A2C;
     text-align: left;
@@ -1393,7 +1393,7 @@ a:focus {
 }
 
 .organiser-card h4 {
-    font-family: PlusJakartaDisplay-Regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 16px;
     color: #0B0A2C;
     text-align: left;
@@ -1402,7 +1402,7 @@ a:focus {
 
 .organiser-card p {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Light;
+    font-family: plus_jakarta_displaylight;
     font-size: 12px;
     color: #0B0A2C;
     text-align: left;
@@ -1455,28 +1455,28 @@ a:focus {
 
 .about-speaker h4 {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #0B0A2C;
 }
 
 .about-speaker p {
     opacity: 0.7;
-    font-family: PlusJakartaDisplay-Regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 14px;
     color: #0B0A2C;
     text-align: left;
 }
 
 .time {
-    font-family: PlusJakartaDisplay-Regular;
+    font-family: plus_jakarta_displayregular;
     font-size: 16px;
     color: #0B0A2C;
     text-align: center;
 }
 
 .topic {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 16px;
     color: #0B0A2C;
     opacity: 1;
@@ -1511,7 +1511,7 @@ a:focus {
 }
 
 #sponsor-modal h3 {
-    font-family: PlusJakartaDisplay-Medium;
+    font-family: plus_jakarta_displaymedium;
     font-size: 18px;
     color: #0B0A2C;
 }
@@ -1527,4 +1527,9 @@ a:focus {
 
 .video-frame iframe {
     width: 100%;
+}
+
+#networking .col-xl-3 {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
