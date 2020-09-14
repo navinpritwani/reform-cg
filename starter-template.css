@@ -346,6 +346,8 @@ ul.sm-logo li {
 .event-slide .theme-card {
     box-shadow: 0 0 0 0;
     position: relative;
+    border-radius: 0px;
+    max-height: 600px;
 }
 
 .event-slide .theme-card {
@@ -356,7 +358,6 @@ ul.sm-logo li {
 
 .event-slide .theme-card .overlay {
     background-image: linear-gradient(180deg, rgba(0,0,0,0.00) 28%, rgba(0,0,0,0.70) 100%);
-    border-radius: 30px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -516,7 +517,6 @@ ul.sm-logo li {
 
 .event-banner .theme-card img {
     width: 100%;
-    height: auto;
 }
 
 .event-banner .theme-card {
@@ -1535,8 +1535,6 @@ a:focus {
 }
 
 .event-banner {
-    max-width: 600px;
-    max-height: 300px;
 }
 
 .desklogo {
@@ -1553,24 +1551,27 @@ a:focus {
 
 .tablinks .label {
     position: absolute;
-    width: 180px;
-    height: 36px;
-    background-color: #e7f2fd;
+    width: 120px;
+    height: 30px;
+    background-color: #0b0a2c;
     top: 0px;
     bottom: 0px;
     margin: auto;
     z-index: -1;
-    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.08);
-    padding: 6px;
+    padding: 2px 6px 3px 1em;
     display: none;
+    left: 60px;
+    color: #ffffff;
+    text-align: left;
+    transition: width 2s;
+    transition-timing-function: linear;
 }
 
 .tablinks .label span {
     font-family: plus_jakarta_displayregular;
-    font-size: 16px;
-    color: #0B0A2C;
+    font-size: 14px;
+    color: #ffffff;
     text-align: left;
-    margin-left: 2em;
 }
 
 .agenda-card h3 span {
@@ -1587,4 +1588,49 @@ a:focus {
 #sponsor-modal .about-speaker .sm-logo img {
     max-width: 24px;
     margin-right: 1em;
+}
+
+.slider-cards {
+    margin-top: 0px;
+}
+
+.reception .event-banner img {
+    width: 100%;
+}
+
+.reception .event-banner {
+    max-width: 600px;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.reception .event-banner iframe {
+    width: 100%;
+}
+
+.floating-icon-div {
+    position: fixed;
+    right: 10em;
+    bottom: 3em;
+    background-color: #0B0A2C;
+    min-width: 120px;
+    z-index: 9999999;
+}
+
+.minSection {
+}
+
+.floating-icon-div .minSection {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.floating-icon-div .minSection img {
+    margin: 0.7em;
+    max-width: 20px;
+}
+
+.left-border {
+    border-right: 1px solid #ffffff;
 }

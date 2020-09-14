@@ -83,7 +83,7 @@
                 </li>
             </ul>
         </div>
-        <div class="container live-event position-relative event-topbar">
+        <div class="container live-event position-relative">
             <div class="row">
                 <div class="col-xl-3">
                     <div class="content">
@@ -115,6 +115,14 @@
                         </li>                         
                     </ul>
                 </div>
+            </div>
+        </div>
+        <div class="floating-icon-div theme-card d-none" id="float-icon">
+            <div class="minSection left-border">
+                <img src="assets/imgs/notification-white.svg">
+            </div>
+            <div class="minSection">
+                <img src="assets/imgs/chat-white.svg">
             </div>
         </div>
         <div class="break"></div>
@@ -228,7 +236,7 @@
                 </div>
                 <div class="col-xl-6">
                     <div class="event-banner">
-                        <img src="assets/event-bg.png"/>
+                        <img src="http://pinegrow.com/placeholders/img18.jpg">
                     </div>
                     <div class="desk">
                         <img src="assets/imgs/reception-desk.svg"/>
@@ -641,7 +649,6 @@
                 </div>
             </div>
             <div class="row tabcontent" id="sponsors">
-                <h3 class="section-title">Sponsors</h3>
                 <div class="text-center col-xl-3">
                     <div class="attendee-card theme-card">
                         <img src="assets/imgs/sponsor-logo.png"/>
@@ -915,6 +922,17 @@ function showLabel(x) {
 }
 function hideLabel(x) {
     x.children[1].style.display = "none" ;
+}
+    
+window.onscroll = function() {
+     var temp3 = document.getElementById("float-icon");
+    console.log(temp3);
+   
+  if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+    temp3.classList.remove("d-none");
+  } else {
+    temp3.classList.add("d-none");
+  }
 }
 </script>
     </body>
