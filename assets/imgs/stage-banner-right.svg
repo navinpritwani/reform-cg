@@ -1,1 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.13 232.67"><title>stage-banner-right</title><g id="Layer_2" data-name="Layer 2"><g id="interior"><polygon points="60.13 0 60.13 232 3.13 232.67 3.13 0 60.13 0" style="fill:#fff"/><polygon points="3.13 0 1.13 1.83 0 230.5 3.13 232.67 3.13 0" style="fill:#ccc"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60.1 232.7" style="enable-background:new 0 0 60.1 232.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#999999;}
+	.st2{fill:url(#SVGID_2_);}
+</style>
+<title>stage-banner-right</title>
+<g id="Layer_2">
+	<g id="interior">
+		<radialGradient id="SVGID_1_" cx="31.63" cy="116.335" r="84.6938" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#D2E2E6"/>
+		</radialGradient>
+		<polygon class="st0" points="60.1,0 60.1,232 3.1,232.7 3.1,0 		"/>
+		<polygon class="st1" points="3.1,0 1.1,1.8 0,230.5 3.1,232.7 		"/>
+	</g>
+</g>
+<g id="Layer_2_1_">
+	<g id="interior_1_">
+		
+			<radialGradient id="SVGID_2_" cx="-63.4339" cy="116.335" r="84.6938" gradientTransform="matrix(-1 0 0 1 -129.9977 0)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</radialGradient>
+		<polygon class="st2" points="-95.1,0 -95.1,232 -38.1,232.7 -38.1,0 		"/>
+		<polygon class="st1" points="-38.1,0 -36.1,1.8 -34.9,230.5 -38.1,232.7 		"/>
+	</g>
+</g>
+</svg>

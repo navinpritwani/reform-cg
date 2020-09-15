@@ -12,8 +12,6 @@
         <link href="assets/font/stylesheet.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <link href="starter-template.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     </head>
     <body class="style-bg">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white">
@@ -32,7 +30,7 @@ display: flex; margin-left: auto; margin-top: auto; margin-bottom: auto;">
                             <a class="nav-link text-dark" href="#">About Us <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark">Events</a>
+                            <a class="nav-link text-dark" href="events.html">Events</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="videos.html">Videos</a>
@@ -41,133 +39,98 @@ display: flex; margin-left: auto; margin-top: auto; margin-bottom: auto;">
                             <a class="nav-link text-dark" href="#">Our Company</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn theme-btn" href="login.html">Login</a>
+                            <button type="submit" class="btn theme-btn">Login</button>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="slider-cards">
-            <div class="event-slide">
-                <div class="theme-card">
-                    <div class="overlay"></div>
-                    <img src="assets/imgs/event-banner.png">
-                    <div class="event-title">
-                        <h2>All about Deep Tech</h2>
-                        <p><img src="assets/date-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                        <a class="btn theme-btn" href="single-event.html">Register</a>
-                    </div>
-                </div>
-            </div>
-            <div class="event-slide">
-                <div class="theme-card">
-                    <div class="overlay"></div>
-                    <img src="assets/imgs/event-banner.png">
-                    <div class="event-title">
-                        <h2>All about Deep Tech</h2>
-                        <p><img src="assets/date-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                        <a class="btn theme-btn" href="#">Register</a>
-                    </div>
-                </div>
-            </div>
-            <div class="event-slide">
-                <div class="theme-card">
-                    <div class="overlay"></div>
-                    <img src="assets/imgs/event-banner.png">
-                    <div class="event-title">
-                        <h2>All about Deep Tech</h2>
-                        <p><img src="assets/date-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                        <a class="btn theme-btn" href="#">Register</a>
-                    </div>
-                </div>
-            </div>
-        </div>         
         <div class="break"></div>
-        <div class="container allevents">
+        <div class="container">
             <div class="row">
-                <h2 class="theme-h2">All Events</h2>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-4">
-                    <div class="theme-card bg-white event-card">
-                        <img src="assets/event-bg.png"/>
-                        <div class="content">
-                            <h3>All about Deep Tech</h3>
-                            <p class="theme-p">Lorem ipsum dolor sit amet, consectere adipiscing elit. Feugiat feugiat congue viverra facilisis.</p>
-                            <p><img src="assets/date-dark-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                            <hr/>
-                            <p class="float-left"><span class="pl-0">Free</span></p>
-                            <a class="btn theme-btn float-right" href="single-event.html">Register</a>
-                        </div>
+                <div class="col-xl-3">
+                    <div class="profile-card theme-card">
+                        <img src="assets/imgs/speaker.png" class="float-left mr-4"/>
+                        <h3 class="text-left">Andrew Chen</h3>
+                        <p class="text-left">navin@gmail.com <br>
+    +91-99 999 99999</p>
+                        <a href=""><img src="assets/imgs/edit-icon.svg" class="pr-2">Edit Profile</a>
+                        <a href="" class="float-right"><img src="assets/imgs/logout-icon.svg" class="pr-2">Logot</a>
+                    </div>
+                    <div class="theme-card tabs-card mt-3">
+                        <nav class="nav flex-column">
+                            <a class="nav-link active" href="#"><img src="assets/imgs/right-icon.svg">Videos</a>
+                            <a class="nav-link" href="#"><img src="assets/imgs/right-icon.svg">Events</a>
+                            <a class="nav-link" href="#"><img src="assets/imgs/right-icon.svg">Workshops</a>
+                        </nav>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4">
-                    <div class="theme-card bg-white event-card">
-                        <img src="assets/event-bg.png"/>
-                        <div class="content">
-                            <h3>All about Deep Tech</h3>
-                            <p class="theme-p">Lorem ipsum dolor sit amet, consectere adipiscing elit. Feugiat feugiat congue viverra facilisis.</p>
-                            <p><img src="assets/date-dark-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                            <hr/>
-                            <p class="float-left"><span class="pl-0">Free</span></p>
-                            <a class="btn theme-btn float-right" href="#">Register</a>
-                        </div>
+                <div class="col-xl-9">
+                    <div class="row">
+                        <h3 class="theme-h3">All Videos</h3>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-4">
-                    <div class="theme-card bg-white event-card">
-                        <img src="assets/event-bg.png"/>
-                        <div class="content">
-                            <h3>All about Deep Tech</h3>
-                            <p class="theme-p">Lorem ipsum dolor sit amet, consectere adipiscing elit. Feugiat feugiat congue viverra facilisis.</p>
-                            <p><img src="assets/date-dark-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                            <hr/>
-                            <p class="float-left"><span class="pl-0">Free</span></p>
-                            <a class="btn theme-btn float-right" href="#">Register</a>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="theme-card bg-white video-card">
+                                <div class="overlay"></div>
+                                <img src="assets/video-thumb.png"/>
+                                <h3>All about Deep tech</h3>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4">
-                    <div class="theme-card bg-white event-card">
-                        <img src="assets/event-bg.png"/>
-                        <div class="content">
-                            <h3>All about Deep Tech</h3>
-                            <p class="theme-p">Lorem ipsum dolor sit amet, consectere adipiscing elit. Feugiat feugiat congue viverra facilisis.</p>
-                            <p><img src="assets/date-dark-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                            <hr/>
-                            <p class="float-left"><span class="pl-0">Free</span></p>
-                            <a class="btn theme-btn float-right" href="#">Register</a>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="theme-card bg-white video-card">
+                                <div class="overlay"></div>
+                                <img src="assets/video-thumb.png"/>
+                                <h3>All about Deep tech</h3>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4">
-                    <div class="theme-card bg-white event-card">
-                        <img src="assets/event-bg.png"/>
-                        <div class="content">
-                            <h3>All about Deep Tech</h3>
-                            <p class="theme-p">Lorem ipsum dolor sit amet, consectere adipiscing elit. Feugiat feugiat congue viverra facilisis.</p>
-                            <p><img src="assets/date-dark-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                            <hr/>
-                            <p class="float-left"><span class="pl-0">Free</span></p>
-                            <a class="btn theme-btn float-right" href="#">Register</a>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="theme-card bg-white video-card">
+                                <div class="overlay"></div>
+                                <img src="assets/video-thumb.png"/>
+                                <h3>All about Deep tech</h3>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4">
-                    <div class="theme-card bg-white event-card">
-                        <img src="assets/event-bg.png"/>
-                        <div class="content">
-                            <h3>All about Deep Tech</h3>
-                            <p class="theme-p">Lorem ipsum dolor sit amet, consectere adipiscing elit. Feugiat feugiat congue viverra facilisis.</p>
-                            <p><img src="assets/date-dark-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                            <hr/>
-                            <p class="float-left"><span class="pl-0">Free</span></p>
-                            <a class="btn theme-btn float-right" href="#">Register</a>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="theme-card bg-white video-card">
+                                <div class="overlay"></div>
+                                <img src="assets/video-thumb.png"/>
+                                <h3>All about Deep tech</h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="theme-card bg-white video-card">
+                                <div class="overlay"></div>
+                                <img src="assets/video-thumb.png"/>
+                                <h3>All about Deep tech</h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="theme-card bg-white video-card">
+                                <div class="overlay"></div>
+                                <img src="assets/video-thumb.png"/>
+                                <h3>All about Deep tech</h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="theme-card bg-white video-card">
+                                <div class="overlay"></div>
+                                <img src="assets/video-thumb.png"/>
+                                <h3>All about Deep tech</h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="theme-card bg-white video-card">
+                                <div class="overlay"></div>
+                                <img src="assets/video-thumb.png"/>
+                                <h3>All about Deep tech</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="break"></div>
         <div class="mail-subscribe">
             <div class="container">
                 <div class="row">
@@ -271,20 +234,5 @@ display: flex; margin-left: auto; margin-top: auto; margin-bottom: auto;">
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script>
-$(document).ready(function(){
-  $('.slider-cards').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: true,
-  });
-});
-</script>
     </body>
 </html>

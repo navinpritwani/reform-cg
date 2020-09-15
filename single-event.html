@@ -309,7 +309,7 @@ display: flex; margin-left: auto; margin-top: auto; margin-bottom: auto;">
                         <h3>Event Registration</h3>
                         <p><span class="head">Event date</span><span class="field">22nd July, 3PM</span></p>
                         <p><span class="head">Event price</span><span class="field">Rs. 200</span></p>
-                        <a class="btn theme-btn w-100 mt-3" href="live-event.html">Register Now</a>
+                        <a class="btn theme-btn w-100 mt-3" href="" data-toggle="modal" data-target="#register-modal">Register Now</a>
                     </div>
                     <div class="registration-card theme-card organiser-card">
                         <h3>Event hosted by</h3>
@@ -430,6 +430,84 @@ display: flex; margin-left: auto; margin-top: auto; margin-bottom: auto;">
                 <hr/>
                 <p class="theme-p text-center">Copyright © 2020 Confer Global Private Limited. All Rights Reserved</p>
             </div>
+        </div>
+        <div class="theme-modal p-4 modal" id="register-modal">
+            <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
+            <h3>Event Registeration</h3>
+            <hr/>
+            <div class="row">
+                <div class="accordion col-xl-12" id="accordionExample275">
+                    <div class="card z-depth-0 bordered">
+                        <div class="card-header" id="headingOne2">
+                            <h5 class="mb-0"> <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                    Attendee 1
+</button> </h5>
+                        </div>
+                        <div id="collapseOne2" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordionExample275">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="form-group col-xl-6"> 
+                                        <label for="formInput124">Name</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="What’s your name"> 
+                                    </div>
+                                    <div class="form-group col-xl-6"> 
+                                        <label for="formInput124">Email Address</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="example@yourmail.com"> 
+                                    </div>
+                                    <div class="form-group col-xl-6"> 
+                                        <label for="formInput124">Phone Number</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="+91 99-999 99999"> 
+                                    </div>
+                                    <div class="form-group col-xl-6"> 
+                                        <label for="formInput124">Company</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="Where you work"> 
+                                    </div>
+                                    <div class="form-group col-xl-12"> 
+                                        <label for="formInput124">Profile</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="What's your designation"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card z-depth-0 bordered">
+                        <div class="card-header" id="headingTwo2">
+                            <h5 class="mb-0"> <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                    ADD ATTENDEE
+</button> </h5>
+                        </div>
+                        <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordionExample275">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="form-group col-xl-6"> 
+                                        <label for="formInput124">Name</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="What’s your name"> 
+                                    </div>
+                                    <div class="form-group col-xl-6"> 
+                                        <label for="formInput124">Email Address</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="example@yourmail.com"> 
+                                    </div>
+                                    <div class="form-group col-xl-6"> 
+                                        <label for="formInput124">Phone Number</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="+91 99-999 99999"> 
+                                    </div>
+                                    <div class="form-group col-xl-6"> 
+                                        <label for="formInput124">Company</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="Where you work"> 
+                                    </div>
+                                    <div class="form-group col-xl-12"> 
+                                        <label for="formInput124">Profile</label>                                         
+                                        <input type="text" class="form-control" id="formInput124" placeholder="What's your designation"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn theme-btn float-right mt-3" href="#">Continue</a>
+            <!--Accordion wrapper-->
+            <!-- Accordion wrapper -->
         </div>
         <!-- /.container -->
         <!-- Bootstrap core JavaScript

@@ -347,13 +347,17 @@ ul.sm-logo li {
     box-shadow: 0 0 0 0;
     position: relative;
     border-radius: 0px;
-    max-height: 600px;
+    max-height: 460px;
 }
 
 .event-slide .theme-card {
 }
 
 .overlay {
+    position: absolute;
+    z-index: -1;
+    width: 90%;
+    height: 100%;
 }
 
 .event-slide .theme-card .overlay {
@@ -770,9 +774,9 @@ ul.sm-logo li {
     font-size: 16px;
     color: #FFFFFF;
     text-align: left;
-    width: 40%;
     display: inline;
     padding-left: 1em;
+    max-width: 40%;
 }
 
 .live-event .live-card a {
@@ -965,7 +969,7 @@ ul.sm-logo li {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 100px;
+    bottom: 120px;
 }
 
 .screen img {
@@ -976,6 +980,8 @@ ul.sm-logo li {
 .screen iframe {
     width: 60vw;
     height: 66vh;
+    margin: 0 auto;
+    border: 10px inset #282829;
 }
 
 .stall .back-card {
@@ -1294,7 +1300,7 @@ a:focus {
 }
 
 .theme-modal .speaker-card img {
-    max-width: 100px;
+    max-width: 80px;
     padding: 0;
 }
 
@@ -1338,13 +1344,13 @@ a:focus {
 .stage-left-banner {
     width: 9%;
     position: absolute;
-    bottom: 0px;
     left: 8em;
+    bottom: 8px;
 }
 
 .stage-left-banner img {
-    border: 0 solid;
     width: 100%;
+    border: 0 solid #938686;
 }
 
 .stage-right-banner {
@@ -1527,6 +1533,7 @@ a:focus {
 
 .video-frame iframe {
     width: 100%;
+    border-top-left-radius: 0px;
 }
 
 #networking .col-xl-3 {
@@ -1633,4 +1640,170 @@ a:focus {
 
 .left-border {
     border-right: 1px solid #ffffff;
+}
+
+#notification-modal .chat-title {
+    width: 100%;
+    margin-left: 0;
+}
+
+#help-modal {
+    height: 60%;
+}
+
+#help-modal .card-header {
+    background: transparent;
+    border: 0px solid;
+}
+
+#help-modal h3 {
+}
+
+.theme-modal h3 {
+    font-family: plus_jakarta_displaymedium;
+    font-size: 18px;
+    color: #0B0A2C;
+}
+
+.exit-promt {
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9;
+    text-align: center;
+    display: none;
+    max-height: 120px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    width: 5px;
+    background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 1em;
+    background-color: #ddd;
+    outline: 1px solid slategrey;
+    border-radius: 1rem;
+}
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+.messages-box,
+.chat-box {
+    height: 480px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+input::placeholder {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.single-chat .header h3 {
+}
+
+.single-chat .header h3 {
+    margin-bottom: 0px;
+    margin-left: 1em;
+    padding-top: 3px;
+}
+
+.single-chat .header a img {
+    max-width: 18px;
+}
+
+.single-chat {
+    display: none;
+}
+
+#register-modal {
+    height: 70%;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1em;
+}
+
+.profile-card img {
+    max-width: 56px;
+    border-radius: 50%;
+}
+
+.profile-card h3 {
+    font-family: plus_jakarta_displaymedium;
+    font-size: 18px;
+    color: #0B0A2C;
+    text-align: left;
+}
+
+.profile-card p {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 14px;
+    color: #0B0A2C;
+    text-align: left;
+}
+
+.profile-card a {
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 14px;
+    color: #1781F1;
+    text-align: left;
+}
+
+.profile-card a img {
+    border-radius: 0;
+    max-width: 20px;
+}
+
+.tabs-card {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1em;
+    height: 100;
+}
+
+.tabs-card nav .nav-link {
+    padding: 16px;
+    border-radius: 4px;
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Light;
+    font-size: 16px;
+    color: #0B0A2C;
+    text-align: left;
+}
+
+.tabs-card nav .nav-link.active {
+    background-color: #E7F2FD;
+    font-family: PlusJakartaDisplay-Medium;
+    opacity: 1;
+}
+
+.tabs-card nav .nav-link img {
+    float: right;
+}
+
+.theme-h3 {
+    font-family: PlusJakartaDisplay-Bold;
+    font-size: 20px !important;
+    color: #0B0A2C;
+    text-align: left;
 }

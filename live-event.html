@@ -102,20 +102,26 @@
                 <div class="col-xl-3">
                     <ul class="sm-logo"> 
                         <li>
-                            <a href=""><img src="assets/imgs/help.svg"/></a>
+                            <a href="" data-toggle="modal" data-target="#help-modal"><img src="assets/imgs/help.svg"/></a>
                         </li>
                         <li>
-                            <a href=""><img src="assets/imgs/notification.svg"/></a>
+                            <a onclick="openNotification()"><img src="assets/imgs/notification.svg"/></a>
                         </li>
                         <li>
                             <a onclick="openChat()"><img src="assets/imgs/chat.svg"/></a>
                         </li>
                         <li>
-                            <a href=""><img src="assets/imgs/logout.svg"/></a>
+                            <a onclick="showAlert()"><img src="assets/imgs/logout.svg"/></a>
                         </li>                         
                     </ul>
                 </div>
             </div>
+        </div>
+        <div class="alert alert-secondary alert-dismissible exit-promt">
+            <button type="button" class="close" onclick="closeAlert()">&times;</button>
+            <strong>Are you sure you want to exit ?</strong>
+            <br>
+            <a class="btn theme-btn mt-4" href="single-event.html">Exit</a> 
         </div>
         <div class="floating-icon-div theme-card d-none" id="float-icon">
             <div class="minSection left-border">
@@ -178,7 +184,7 @@
                 <div class="stage-left-banner">
                     <img src="assets/imgs/stage-banner-left.svg"/>
                 </div>
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/AmvyrzqqTv8">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/j2WaSbyjRm8">
 </iframe>
             </div>
         </div>
@@ -766,26 +772,122 @@
             </div>
         </div>
         <div class="chat-modal" id="chat-modal">
+            <div class="single-chat">
+                <div class="header">
+                    <a onclick="chatList()" class="float-left"><img src="assets/imgs/back-icon.svg" class="w-100"/></a>
+                    <h3 class="float-left">John Doe</h3>
+                    <a class="float-right"><img src="assets/imgs/video-icon.svg"/></a>
+                    <a data-toggle="modal" data-target="#atendee-modal" class="float-right mr-3"><img src="assets/imgs/info-icon.svg"/></a>
+                    <hr class="float-left w-100"/>
+                </div>
+                <div class="chat-box bg-white">
+                    <!-- Sender Message-->
+                    <div class="media mb-3 mr-3">
+                        <div class="media-body">
+                            <div class="bg-light rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-muted">Test which is a new approach all solutions</p>
+                            </div>
+                            <p class="small text-muted">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Reciever Message-->
+                    <div class="media ml-auto mb-3">
+                        <div class="media-body ml-3">
+                            <div class="bg-primary rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-white">Test which is a new approach to have all solutions</p>
+                            </div>
+                            <p class="small text-muted text-right">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Sender Message-->
+                    <div class="media mb-3 mr-3">
+                        <div class="media-body">
+                            <div class="bg-light rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-muted">Test, which is a new approach to have</p>
+                            </div>
+                            <p class="small text-muted">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Reciever Message-->
+                    <div class="media ml-auto mb-3">
+                        <div class="media-body ml-3">
+                            <div class="bg-primary rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-white">Apollo University, Delhi, India Test</p>
+                            </div>
+                            <p class="small text-muted text-right">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Sender Message-->
+                    <div class="media mb-3 mr-3">
+                        <div class="media-body">
+                            <div class="bg-light rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-muted">Test, which is a new approach</p>
+                            </div>
+                            <p class="small text-muted">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                    <!-- Reciever Message-->
+                    <div class="media ml-auto mb-3">
+                        <div class="media-body ml-3">
+                            <div class="bg-primary rounded py-2 px-3 mb-2">
+                                <p class="text-small mb-0 text-white">Apollo University, Delhi, India Test</p>
+                            </div>
+                            <p class="small text-muted text-right">12:00 PM | Aug 13</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="#" class="bg-light">
+                    <div class="input-group">
+                        <input type="text" placeholder="Type a message" aria-describedby="button-addon2" class="form-control rounded-0 border-0 bg-light py-4">
+                        <div class="input-group-append">
+                            <button id="button-addon2" type="submit" class="btn btn-link"> 
+                                <i class="fa fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- Typing area -->
+            <div class="thread" id="chat-list">
+                <div class="header">
+                    <h3><a onclick="closeChat()"><img src="assets/imgs/close.svg" class="w-100"/></a>Chat Messages</h3>
+                    <hr/>
+                </div>
+                <div class="chat-list"> 
+                    <div onclick="singleChat()" class="avatar-img"></div>                     
+                    <div class="chat-title" onclick="singleChat()">
+                        <h3>Open Chat</h3>
+                        <p>Mike : Gald to talk to you ..</p>
+                        <img src="assets/imgs/arrow-right.svg"/>
+                    </div>
+                </div>
+                <div class="chat-list">
+                    <div class="avatar-img" onclick="singleChat()">
+                        <img src="assets/imgs/speaker.png"/>
+                    </div>
+                    <div class="chat-title" onclick="singleChat()">
+                        <h3>Sameual Johnson</h3>
+                        <p>Gald to talk to you ..</p>
+                        <img src="assets/imgs/arrow-right.svg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-modal" id="notification-modal">
             <div class="header">
-                <h3><a onclick="closeChat()"><img src="assets/imgs/close.svg" class="w-100"/></a>Chat Messages</h3>
+                <h3><a onclick="closeNotification()"><img src="assets/imgs/close.svg" class="w-100"/></a>Notification</h3>
                 <hr/>
             </div>
             <div class="chat-list">
-                <div class="avatar-img"></div>
                 <div class="chat-title">
                     <h3>Open Chat</h3>
                     <p>Mike : Gald to talk to you ..</p>
-                    <img src="assets/imgs/arrow-right.svg"/>
                 </div>
             </div>
             <div class="chat-list">
-                <div class="avatar-img">
-                    <img src="assets/imgs/speaker.png"/>
-                </div>
                 <div class="chat-title">
                     <h3>Sameual Johnson</h3>
                     <p>Gald to talk to you ..</p>
-                    <img src="assets/imgs/arrow-right.svg"/>
                 </div>
             </div>
         </div>
@@ -825,23 +927,14 @@
                 <img src="assets/imgs/speaker.png" class="float-left mr-4"/>
                 <h3 class="text-left pt-3">Andrew Chen</h3>
                 <p class="text-left">CEO - M&X  Ltd.</p>
-                <ul class="sm-logo text-left"> 
-                    <li>
-                        <a href=""><img src="assets/imgs/fb-link.svg"/></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
-                    </li>
-                    <li>
-                        <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
-                    </li>                     
-                </ul>
             </div>
             <hr/>
             <div class="about-speaker">
-                <h4>About</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h4>Profile</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
+            <button type="button" class="btn theme-btn">Request Contact</button>
+            <button type="button" class="btn theme-btn ml-4">Request Video meet</button>
         </div>
         <div class="theme-modal p-4 modal" id="sponsor-modal">
             <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
@@ -876,6 +969,71 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="theme-modal p-4 modal" id="help-modal">
+            <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
+            <h3>FAQs</h3>
+            <hr/>
+            <div class="row">
+                <div class="accordion col-xl-12" id="accordionExample275">
+                    <div class="card z-depth-0 bordered">
+                        <div class="card-header" id="headingOne2">
+                            <h5 class="mb-0"> <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                    Collapsible Group Item #1
+</button> </h5>
+                        </div>
+                        <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2" data-parent="#accordionExample275">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable.
+</div>
+                        </div>
+                    </div>
+                    <div class="card z-depth-0 bordered">
+                        <div class="card-header" id="headingTwo2">
+                            <h5 class="mb-0"> <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                    Collapsible Group Item #2
+</button> </h5>
+                        </div>
+                        <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordionExample275">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable.
+</div>
+                        </div>
+                    </div>
+                    <div class="card z-depth-0 bordered">
+                        <div class="card-header" id="headingThree2">
+                            <h5 class="mb-0"> <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                                    Collapsible Group Item #3
+</button> </h5>
+                        </div>
+                        <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionExample275">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable.
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Accordion wrapper-->
+            <!-- Accordion wrapper -->
         </div>
         <!-- /.container -->
         <!-- Bootstrap core JavaScript
@@ -916,6 +1074,12 @@ function openChat() {
 function closeChat() {
 	document.getElementById("chat-modal").style.display="none";
 }
+function openNotification() {
+document.getElementById("notification-modal").style.display="block";
+}
+    function closeNotification() {
+document.getElementById("notification-modal").style.display="none";
+}
     
 function showLabel(x) {
     x.children[1].style.display = "block" ;
@@ -923,6 +1087,21 @@ function showLabel(x) {
 function hideLabel(x) {
     x.children[1].style.display = "none" ;
 }
+    function showAlert(){
+     $('.alert').show();
+    }
+    function closeAlert(){
+    $('.alert').hide();
+    }
+    
+    function singleChat() {
+     $('.single-chat').show();
+     $('.thread').hide();
+    }
+    function chatList() {
+     $('.single-chat').hide();
+     $('.thread').show();
+    }
     
 window.onscroll = function() {
      var temp3 = document.getElementById("float-icon");
@@ -934,6 +1113,8 @@ window.onscroll = function() {
     temp3.classList.add("d-none");
   }
 }
+
+
 </script>
     </body>
 </html>

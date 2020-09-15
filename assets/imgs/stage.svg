@@ -1,41 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1367px" height="204px" viewBox="0 0 1367 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>stage</title>
-    <defs>
-        <linearGradient x1="50%" y1="100%" x2="50%" y2="-0.000441428613%" id="linearGradient-1">
-            <stop stop-color="#F2F2F2" offset="0%"></stop>
-            <stop stop-color="#9EA8B1" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="49.9866117%" y1="49.9985804%" x2="50.0133156%" y2="50.0135364%" id="linearGradient-2">
-            <stop stop-color="#005F79" offset="0%"></stop>
-            <stop stop-color="#002265" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="49.957765%" y1="49.803865%" x2="50.0423698%" y2="50.1306801%" id="linearGradient-3">
-            <stop stop-color="#005F79" offset="0%"></stop>
-            <stop stop-color="#002265" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-4">
-            <stop stop-color="#005F79" offset="0%"></stop>
-            <stop stop-color="#002265" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="0%" y1="50.013238%" x2="100%" y2="50.013238%" id="linearGradient-5">
-            <stop stop-color="#005F79" offset="0%"></stop>
-            <stop stop-color="#002265" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="49.9447074%" y1="49.700061%" x2="50.0553053%" y2="50.3018197%" id="linearGradient-6">
-            <stop stop-color="#005F79" offset="0%"></stop>
-            <stop stop-color="#002265" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="stage" fill-rule="nonzero">
-            <polygon id="Path" fill="url(#linearGradient-1)" points="107.92465 4.8628169 0 45.5352113 0 61 1367 61 1367 49.7622535 1261.16002 0"></polygon>
-            <rect id="Rectangle" fill="#031D2E" x="0" y="61" width="1367" height="140"></rect>
-            <polygon id="Rectangle" fill="url(#linearGradient-2)" transform="translate(66.846340, 135.421477) rotate(-0.420000) translate(-66.846340, -135.421477) " points="65.9918479 70.1118908 67.7005979 70.1118939 67.7008314 200.731062 65.9920814 200.731059"></polygon>
-            <polygon id="Rectangle" fill="url(#linearGradient-3)" transform="translate(1022.187048, 136.013949) rotate(-2.920000) translate(-1022.187048, -136.013949) " points="1021.33187 71.1741061 1023.04062 71.1741273 1023.04223 200.853793 1021.33348 200.853772"></polygon>
-            <rect id="Rectangle" fill="url(#linearGradient-4)" x="754" y="71" width="2" height="133"></rect>
-            <rect id="Rectangle" fill="url(#linearGradient-5)" x="1266" y="72" width="2" height="129"></rect>
-            <polygon id="Rectangle" fill="url(#linearGradient-6)" transform="translate(519.597453, 135.683893) rotate(-4.090000) translate(-519.597453, -135.683893) " points="518.741948 70.4852554 520.450696 70.485285 520.452958 200.88253 518.744211 200.8825"></polygon>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1367 204" style="enable-background:new 0 0 1367 204;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Path_1_);}
+	.st1{fill:#031D2E;}
+	.st2{fill:url(#Rectangle_6_);}
+	.st3{fill:url(#Rectangle_7_);}
+	.st4{fill:url(#Rectangle_8_);}
+	.st5{fill:url(#Rectangle_9_);}
+	.st6{fill:url(#Rectangle_10_);}
+</style>
+<title>stage</title>
+<g id="UI">
+	<g id="stage">
+		
+			<linearGradient id="Path_1_" gradientUnits="userSpaceOnUse" x1="558.0918" y1="173.4918" x2="558.0918" y2="174.4918" gradientTransform="matrix(1367 0 0 -61 -762228 10644)">
+			<stop  offset="0" style="stop-color:#F2F2F2"/>
+			<stop  offset="1" style="stop-color:#9EA8B1"/>
+		</linearGradient>
+		<polygon id="Path" class="st0" points="107.9,4.9 0,45.5 0,61 1367,61 1367,49.8 1261.2,0 		"/>
+		<rect id="Rectangle" y="61" class="st1" width="1367" height="140"/>
+		
+			<linearGradient id="Rectangle_6_" gradientUnits="userSpaceOnUse" x1="231.534" y1="174.0936" x2="232.7215" y2="173.4284" gradientTransform="matrix(1.7089 -1.252740e-02 -0.9575 -130.6157 -163.473 22834.2344)">
+			<stop  offset="0" style="stop-color:#005F79"/>
+			<stop  offset="1" style="stop-color:#002265"/>
+		</linearGradient>
+		<polygon id="Rectangle_1_" class="st2" points="65.5,70.1 67.2,70.1 68.2,200.7 66.5,200.7 		"/>
+		
+			<linearGradient id="Rectangle_7_" gradientUnits="userSpaceOnUse" x1="233.5749" y1="173.9522" x2="233.5757" y2="173.9489" gradientTransform="matrix(1.7082 -8.712984e-02 -6.6061 -129.5113 1772.3313 22684.8887)">
+			<stop  offset="0" style="stop-color:#005F79"/>
+			<stop  offset="1" style="stop-color:#002265"/>
+		</linearGradient>
+		<polygon id="Rectangle_2_" class="st3" points="1018,71.3 1019.7,71.2 1026.3,200.7 1024.6,200.8 		"/>
+		
+			<linearGradient id="Rectangle_8_" gradientUnits="userSpaceOnUse" x1="279" y1="173.7256" x2="280" y2="173.7256" gradientTransform="matrix(2 0 0 -133 196 23243)">
+			<stop  offset="0" style="stop-color:#005F79"/>
+			<stop  offset="1" style="stop-color:#002265"/>
+		</linearGradient>
+		<rect id="Rectangle_3_" x="754" y="71" class="st4" width="2" height="133"/>
+		
+			<linearGradient id="Rectangle_9_" gradientUnits="userSpaceOnUse" x1="279" y1="173.7326" x2="280" y2="173.7326" gradientTransform="matrix(2 0 0 -129 708 22548)">
+			<stop  offset="0" style="stop-color:#005F79"/>
+			<stop  offset="1" style="stop-color:#002265"/>
+		</linearGradient>
+		<rect id="Rectangle_4_" x="1266" y="72" class="st5" width="2" height="129"/>
+		
+			<linearGradient id="Rectangle_10_" gradientUnits="userSpaceOnUse" x1="234.4552" y1="174.0377" x2="234.4563" y2="174.0317" gradientTransform="matrix(1.7066 -0.122 -9.3004 -130.0652 1738.0529 22800.1504)">
+			<stop  offset="0" style="stop-color:#005F79"/>
+			<stop  offset="1" style="stop-color:#002265"/>
+		</linearGradient>
+		<polygon id="Rectangle_5_" class="st6" points="514.1,70.7 515.8,70.6 525.1,200.7 523.4,200.8 		"/>
+	</g>
+</g>
 </svg>
