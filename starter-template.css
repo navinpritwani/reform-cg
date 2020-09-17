@@ -655,6 +655,7 @@ ul.sm-logo li {
     font-size: 18px;
     color: #0B0A2C;
     padding-left: 1.5em;
+    margin-top: 0;
 }
 
 .agenda-card hr {
@@ -776,7 +777,7 @@ ul.sm-logo li {
     text-align: left;
     display: inline;
     padding-left: 1em;
-    max-width: 40%;
+    max-width: 30%;
 }
 
 .live-event .live-card a {
@@ -952,7 +953,7 @@ ul.sm-logo li {
 
 .stage {
     bottom: 0px;
-    height: 140px;
+    height: 170px;
     position: fixed;
     width: 100vw;
 }
@@ -969,7 +970,7 @@ ul.sm-logo li {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 120px;
+    bottom: 150px;
 }
 
 .screen img {
@@ -978,10 +979,10 @@ ul.sm-logo li {
 }
 
 .screen iframe {
-    width: 60vw;
-    height: 66vh;
+    height: 450px;
     margin: 0 auto;
     border: 10px inset #282829;
+    width: 800px;
 }
 
 .stall .back-card {
@@ -1076,9 +1077,9 @@ ul.sm-logo li {
 }
 
 .stall-back {
-    position: fixed;
-    bottom: -20px;
-    width: 100vw;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
     text-align: center;
     z-index: -1;
 }
@@ -1088,8 +1089,11 @@ ul.sm-logo li {
 }
 
 .stall-b {
-    width: 87% !important;
-    margin-bottom: -6px;
+    width: 89% !important;
+    position: absolute;
+    bottom: 110px;
+    left: 0;
+    right: 0;
 }
 
 .stall-table {
@@ -1321,6 +1325,7 @@ a:focus {
 }
 
 .live-event {
+    width: 100%;
 }
 
 .event-topbar {
@@ -1342,10 +1347,10 @@ a:focus {
 }
 
 .stage-left-banner {
-    width: 9%;
+    width: 8%;
     position: absolute;
-    left: 8em;
-    bottom: 8px;
+    bottom: 0px;
+    left: 10%;
 }
 
 .stage-left-banner img {
@@ -1354,13 +1359,13 @@ a:focus {
 }
 
 .stage-right-banner {
-    right: 8em;
+    right: 10%;
     left: auto;
 }
 
 .stall-backbutton {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 10%;
 }
 
@@ -1505,7 +1510,7 @@ a:focus {
 }
 
 #atendee-modal {
-    max-height: 40%;
+    max-height: 30%;
 }
 
 #atendee-modal .speaker-card img {
@@ -1558,20 +1563,18 @@ a:focus {
 
 .tablinks .label {
     position: absolute;
-    width: 120px;
     height: 30px;
-    background-color: #0b0a2c;
+    background-color: rgba(11, 10, 44, 0.81);
     top: 0px;
     bottom: 0px;
     margin: auto;
     z-index: -1;
-    padding: 2px 6px 3px 1em;
-    display: none;
-    left: 60px;
+    padding: 2px 1.5em 3px;
+    left: 80px;
     color: #ffffff;
-    text-align: left;
-    transition: width 2s;
-    transition-timing-function: linear;
+    text-align: center;
+    border-radius: 22px;
+    opacity: 0;
 }
 
 .tablinks .label span {
@@ -1645,6 +1648,7 @@ a:focus {
 #notification-modal .chat-title {
     width: 100%;
     margin-left: 0;
+    padding-left: 12px;
 }
 
 #help-modal {
@@ -1666,7 +1670,7 @@ a:focus {
 }
 
 .exit-promt {
-    width: 60%;
+    width: 40%;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -1806,4 +1810,259 @@ input::placeholder {
     font-size: 20px !important;
     color: #0B0A2C;
     text-align: left;
+}
+
+.live-card p marquee {
+    line-height: 18px;
+}
+
+.speaker-details {
+    width: 800px;
+    margin: auto;
+    padding: 1em;
+    background-color: #0b0a2c;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    display: none;
+}
+
+.speaker-details h3 {
+    padding-left: 0.5em;
+    font-family: plus_jakarta_displaymedium;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    width: 70%;
+}
+
+.speaker-details p {
+    opacity: 0.7;
+    padding-left: 0.5em;
+    font-family: plus_jakarta_displayregular;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    width: 70%;
+}
+
+.speaker-details .hash-tag {
+    text-align: right;
+    float: right;
+    max-width: 30%;
+    padding-top: 12px;
+}
+
+.stand {
+    position: absolute;
+    border: 0px;
+    text-align: center;
+    bottom: 60px;
+    width: 1267px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.stand img {
+    width: 100%;
+}
+
+.info-video {
+    position: absolute;
+    top: 144px;
+    left: 25px;
+    width: 230px;
+    height: 130px;
+    border: 0px solid #000;
+}
+
+.display {
+}
+
+.info-video .display iframe {
+    width: 230px;
+    height: 130px;
+}
+
+.logo_visit {
+    position: absolute;
+    top: 22px;
+    left: 355px;
+    width: 128px;
+    height: 128px;
+}
+
+.display_logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 128px;
+    height: 128px;
+    background-color: #ffffff;
+}
+
+.items_img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 3px;
+}
+
+.leaflet {
+    position: absolute;
+    top: 354px;
+    left: 187px;
+    width: 68px;
+    height: 175px;
+}
+
+.leaflet0 {
+    position: relative;
+    top: 1px;
+    left: 0px;
+    width: 32px;
+    height: 45px;
+}
+
+.leaflet1 {
+    position: relative;
+    top: -43px;
+    left: 35px;
+    width: 32px;
+    height: 45px;
+}
+
+.leaflet img {
+    width: 32px;
+    height: 45px;
+}
+
+.infopic {
+    position: absolute;
+    top: 250px;
+    left: 630px;
+    width: 320px;
+    height: 210px;
+}
+
+.display_infopic {
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 233px;
+    height: 100px;
+}
+
+.infopic .display_infopic img {
+    width: 315px;
+    height: 210px;
+}
+
+.firm-info {
+    position: absolute;
+    top: 241px;
+    left: 1020px;
+    width: 151px;
+    height: 238px;
+    border: 0px solid #000;
+    text-align: left;
+    padding: 10px;
+}
+
+.firm-info h3 {
+    font-family: PlusJakartaDisplay-Medium;
+    font-size: 16px;
+    color: #0B0A2C;
+    text-align: left;
+}
+
+.firm-info p {
+    opacity: 0.7;
+    font-family: PlusJakartaDisplay-Regular;
+    font-size: 12px;
+    color: #03101A;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.firm-info img {
+    max-width: 12px;
+}
+
+.firm-info a {
+    font-family: PlusJakartaDisplay-Regular;
+    font-size: 12px;
+    color: #1781F1;
+    text-align: left;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.firm-info a img {
+    margin-right: 6px;
+}
+
+.firm-info .sm-logo {
+    margin-top: 0;
+}
+
+.firm-name {
+    font-family: PlusJakartaDisplay-Medium;
+    position: absolute;
+    left: 560px;
+    top: 19px;
+    width: 670px;
+    height: 35px;
+    border: 0px solid #CCC;
+    text-align: center;
+    line-height: 19px;
+    font-size: 18px;
+    padding-top: 7px;
+    margin-top: 0;
+}
+
+.elementToFadeIn {
+    opacity: 1 !important;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.elementToFadeOut {
+    opacity: 0 !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#notification-modal .chat-title {
+    font-size: 14px;
 }

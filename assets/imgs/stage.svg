@@ -15,42 +15,42 @@
 <g id="UI">
 	<g id="stage">
 		
-			<linearGradient id="Path_1_" gradientUnits="userSpaceOnUse" x1="558.0918" y1="173.4918" x2="558.0918" y2="174.4918" gradientTransform="matrix(1367 0 0 -61 -762228 10644)">
+			<linearGradient id="Path_1_" gradientUnits="userSpaceOnUse" x1="558.0918" y1="172.7626" x2="558.0918" y2="174.448" gradientTransform="matrix(1367 0 0 -61 -762228 10644)">
 			<stop  offset="0" style="stop-color:#F2F2F2"/>
 			<stop  offset="1" style="stop-color:#9EA8B1"/>
 		</linearGradient>
-		<polygon id="Path" class="st0" points="107.9,4.9 0,45.5 0,61 1367,61 1367,49.8 1261.2,0 		"/>
-		<rect id="Rectangle" y="61" class="st1" width="1367" height="140"/>
+		<polygon id="Path" class="st0" points="166.9,2.7 0,90 0,105.5 1367,105.5 1367,94.2 1200.1,2.7 		"/>
+		<rect id="Rectangle" y="105.5" class="st1" width="1367" height="140"/>
 		
-			<linearGradient id="Rectangle_6_" gradientUnits="userSpaceOnUse" x1="231.534" y1="174.0936" x2="232.7215" y2="173.4284" gradientTransform="matrix(1.7089 -1.252740e-02 -0.9575 -130.6157 -163.473 22834.2344)">
+			<linearGradient id="Rectangle_6_" gradientUnits="userSpaceOnUse" x1="231.3432" y1="173.753" x2="232.5307" y2="173.0879" gradientTransform="matrix(1.7089 -1.252740e-02 -0.9575 -130.6157 -163.473 22834.2344)">
 			<stop  offset="0" style="stop-color:#005F79"/>
 			<stop  offset="1" style="stop-color:#002265"/>
 		</linearGradient>
-		<polygon id="Rectangle_1_" class="st2" points="65.5,70.1 67.2,70.1 68.2,200.7 66.5,200.7 		"/>
+		<polygon id="Rectangle_1_" class="st2" points="65.5,114.6 67.2,114.6 68.2,245.2 66.5,245.2 		"/>
 		
-			<linearGradient id="Rectangle_7_" gradientUnits="userSpaceOnUse" x1="233.5749" y1="173.9522" x2="233.5757" y2="173.9489" gradientTransform="matrix(1.7082 -8.712984e-02 -6.6061 -129.5113 1772.3313 22684.8887)">
+			<linearGradient id="Rectangle_7_" gradientUnits="userSpaceOnUse" x1="232.25" y1="173.6096" x2="232.2508" y2="173.6063" gradientTransform="matrix(1.7082 -8.712984e-02 -6.6061 -129.5113 1772.3313 22684.8887)">
 			<stop  offset="0" style="stop-color:#005F79"/>
 			<stop  offset="1" style="stop-color:#002265"/>
 		</linearGradient>
-		<polygon id="Rectangle_2_" class="st3" points="1018,71.3 1019.7,71.2 1026.3,200.7 1024.6,200.8 		"/>
+		<polygon id="Rectangle_2_" class="st3" points="1018,115.8 1019.7,115.7 1026.3,245.2 1024.6,245.3 		"/>
 		
-			<linearGradient id="Rectangle_8_" gradientUnits="userSpaceOnUse" x1="279" y1="173.7256" x2="280" y2="173.7256" gradientTransform="matrix(2 0 0 -133 196 23243)">
+			<linearGradient id="Rectangle_8_" gradientUnits="userSpaceOnUse" x1="279" y1="173.3911" x2="280" y2="173.3911" gradientTransform="matrix(2 0 0 -133 196 23243)">
 			<stop  offset="0" style="stop-color:#005F79"/>
 			<stop  offset="1" style="stop-color:#002265"/>
 		</linearGradient>
-		<rect id="Rectangle_3_" x="754" y="71" class="st4" width="2" height="133"/>
+		<rect id="Rectangle_3_" x="754" y="115.5" class="st4" width="2" height="133"/>
 		
-			<linearGradient id="Rectangle_9_" gradientUnits="userSpaceOnUse" x1="279" y1="173.7326" x2="280" y2="173.7326" gradientTransform="matrix(2 0 0 -129 708 22548)">
+			<linearGradient id="Rectangle_9_" gradientUnits="userSpaceOnUse" x1="279" y1="173.3877" x2="280" y2="173.3877" gradientTransform="matrix(2 0 0 -129 708 22548)">
 			<stop  offset="0" style="stop-color:#005F79"/>
 			<stop  offset="1" style="stop-color:#002265"/>
 		</linearGradient>
-		<rect id="Rectangle_4_" x="1266" y="72" class="st5" width="2" height="129"/>
+		<rect id="Rectangle_4_" x="1266" y="116.5" class="st5" width="2" height="129"/>
 		
-			<linearGradient id="Rectangle_10_" gradientUnits="userSpaceOnUse" x1="234.4552" y1="174.0377" x2="234.4563" y2="174.0317" gradientTransform="matrix(1.7066 -0.122 -9.3004 -130.0652 1738.0529 22800.1504)">
+			<linearGradient id="Rectangle_10_" gradientUnits="userSpaceOnUse" x1="232.6009" y1="173.6974" x2="232.602" y2="173.6914" gradientTransform="matrix(1.7066 -0.122 -9.3004 -130.0652 1738.0529 22800.1504)">
 			<stop  offset="0" style="stop-color:#005F79"/>
 			<stop  offset="1" style="stop-color:#002265"/>
 		</linearGradient>
-		<polygon id="Rectangle_5_" class="st6" points="514.1,70.7 515.8,70.6 525.1,200.7 523.4,200.8 		"/>
+		<polygon id="Rectangle_5_" class="st6" points="514.1,115.2 515.8,115.1 525.1,245.1 523.4,245.3 		"/>
 	</g>
 </g>
 </svg>

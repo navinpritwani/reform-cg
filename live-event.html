@@ -13,8 +13,9 @@
         <link href="starter-template.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
-    <body class="style-bg">
+    <body class="style-bg pt-4">
         <div class="event-tabs align-middle">
             <ul>
                 <li>
@@ -83,44 +84,45 @@
                 </li>
             </ul>
         </div>
-        <div class="container live-event position-relative">
-            <div class="row">
-                <div class="col-xl-3">
-                    <div class="content">
-                        <h3>Confer Global 2020</h3>
-                        <p><img src="assets/date-dark-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="theme-card live-card">
-                        <h3>Stage is live</h3>
-                        <span class="feed-icon"><img src="assets/imgs/rss_feed%20-%20material.svg"/></span>
-                        <p>Fireside chat on deeptech</p>
-                        <a href="">Join Now</a>
-                    </div>
-                </div>
-                <div class="col-xl-3">
-                    <ul class="sm-logo"> 
-                        <li>
-                            <a href="" data-toggle="modal" data-target="#help-modal"><img src="assets/imgs/help.svg"/></a>
-                        </li>
-                        <li>
-                            <a onclick="openNotification()"><img src="assets/imgs/notification.svg"/></a>
-                        </li>
-                        <li>
-                            <a onclick="openChat()"><img src="assets/imgs/chat.svg"/></a>
-                        </li>
-                        <li>
-                            <a onclick="showAlert()"><img src="assets/imgs/logout.svg"/></a>
-                        </li>                         
-                    </ul>
+        <div class="row live-event pl-5 pr-5">
+            <div class="col-xl-3 col-lg-3">
+                <div class="content">
+                    <h3>Confer Global 2020</h3>
+                    <p><img src="assets/date-dark-icon.svg"/><span>22nd July 2020, 2PM - 4PM</span></p>
                 </div>
             </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="theme-card live-card">
+                    <h3>Stage is live</h3>
+                    <span class="feed-icon"><img src="assets/imgs/rss_feed%20-%20material.svg"/></span>
+                    <p><marquee width="55%" direction="left" scrollamount="3">
+                            The future is changing and we are a part of it
+</marquee></p>
+                    <a href="">Join Now</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3">
+                <ul class="sm-logo"> 
+                    <li>
+                        <a href="" data-toggle="modal" data-target="#help-modal"><img src="assets/imgs/help.svg"/></a>
+                    </li>
+                    <li>
+                        <a onclick="openNotification()"><img src="assets/imgs/notification.svg"/></a>
+                    </li>
+                    <li>
+                        <a onclick="openChat()"><img src="assets/imgs/chat.svg"/></a>
+                    </li>
+                    <li>
+                        <a onclick="showAlert()"><img src="assets/imgs/logout.svg"/></a>
+                    </li>                     
+                </ul>
+            </div>
         </div>
-        <div class="alert alert-secondary alert-dismissible exit-promt">
+        <div class="alert alert-secondary alert-dismissible exit-promt theme-modal">
             <button type="button" class="close" onclick="closeAlert()">&times;</button>
             <strong>Are you sure you want to exit ?</strong>
             <br>
+            <a class="btn mt-4 mr-4 pr-4 pl-4 theme-btn text-body bg-light" onclick="closeAlert()">Cancel</a>
             <a class="btn theme-btn mt-4" href="single-event.html">Exit</a> 
         </div>
         <div class="floating-icon-div theme-card d-none" id="float-icon">
@@ -132,7 +134,7 @@
             </div>
         </div>
         <div class="break"></div>
-        <div class="tabcontent" id="single-stall">
+        <div class="tabcontent">
             <div class="stall-back">
                 <img src="assets/imgs/stall-back.png" class="stall-b"/>
                 <img src="assets/imgs/stall-floor.svg"/>
@@ -173,6 +175,63 @@
                 <a href=""><img src="assets/imgs/back-icon.svg"/>Back</a>
             </div>
         </div>
+        <div class="tabcontent" id="single-stall">
+            <div class="stall-back">
+                <img src="assets/imgs/floor.png"/>
+            </div>
+            <div class="stand">
+                <img src="assets/imgs/stand_background_3.png"/>
+                <div class="info-video">
+                    <div class="display">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/Y9NMEj9-V5g">
+</iframe>
+                    </div>
+                </div>
+                <div class="logo_visit">
+                    <div class="display_logo">
+                        <a href=""><img src="assets/imgs/logo-stall.png" class="items_img" title=""></a>
+                    </div>
+                </div>
+                <div id="leaflet" class="leaflet"> 
+                    <div id="leaflet0" class="leaflet0">
+                        <img src="https://s3.eu-west-1.amazonaws.com/expopolis-scve/Fair1/CEMR_Sustainability_best_practices_2017_EN.jpg">
+                    </div>
+                    <div id="leaflet1" class="leaflet1">
+                        <img src="https://s3.eu-west-1.amazonaws.com/expopolis-scve/Fair1/Europe_2030_Synthesis_EN.jpg">
+                    </div>
+                </div>
+                <div id="board_33" class="infopic">
+                    <div id="display_483" class="display_infopic">
+                        <a href="javascript:showConnexion();"><img id="33" name="483" src="assets/imgs/bg2.jpg" class="items_img" title="Website"></a>
+                    </div>
+                </div>
+                <h3 class="firm-name">Flooop Pvt. Ltd</h3>
+                <div class="firm-info">
+                    <h3>Flooop Pvt. Ltd</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <ul class="sm-logo"> 
+                        <li>
+                            <a href=""><img src="assets/imgs/fb-link.svg"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/imgs/twitter-link.svg"/></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="assets/imgs/linkedin-link.svg"/></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>                         
+                    </ul>
+                    <a href=""><img src="assets/imgs/download.svg"/>Download Brochure</a>
+                    <a href=""><img src="assets/imgs/chat.svg"/>Send Message</a>
+                    <a href=""><img src="assets/imgs/contact.svg"/>Get Contact</a>
+                </div>
+            </div>
+            <div class="stall-backbutton">
+                <a href=""><img src="assets/imgs/back-icon.svg"/>Back</a>
+            </div>
+        </div>
         <div class="tabcontent" id="audi">
             <div class="stage">
                 <img src="assets/imgs/stage.svg"/>
@@ -184,8 +243,15 @@
                 <div class="stage-left-banner">
                     <img src="assets/imgs/stage-banner-left.svg"/>
                 </div>
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/j2WaSbyjRm8">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/j2WaSbyjRm8" onmouseover="showDetails()" onmouseout="hideDetails(this)">
 </iframe>
+                <div class="speaker-details">
+                    <h3 class="hash-tag"> 
+    #TredingTags</h3>
+                    <h3> 
+    Speaker Name</h3>
+                    <p>Depcription</p>
+                </div>
             </div>
         </div>
         <div class="container live-event"> 
@@ -242,7 +308,7 @@
                 </div>
                 <div class="col-xl-6">
                     <div class="event-banner">
-                        <img src="http://pinegrow.com/placeholders/img18.jpg">
+                        <img src="http://conferglobal.com/wp-content/uploads/2020/07/alexandre-pellaes-6vAjp0pscX0-unsplash-2-1-min.jpg">
                     </div>
                     <div class="desk">
                         <img src="assets/imgs/reception-desk.svg"/>
@@ -880,14 +946,12 @@
             </div>
             <div class="chat-list">
                 <div class="chat-title">
-                    <h3>Open Chat</h3>
-                    <p>Mike : Gald to talk to you ..</p>
+                    <h3>Session is Live</h3>
                 </div>
             </div>
             <div class="chat-list">
                 <div class="chat-title">
-                    <h3>Sameual Johnson</h3>
-                    <p>Gald to talk to you ..</p>
+                    <h3>Sameual Johnson wants to connect with you</h3>
                 </div>
             </div>
         </div>
@@ -922,19 +986,19 @@
             </div>
         </div>
         <div class="theme-modal p-4 modal" id="atendee-modal">
-            <div class="speaker-card text-left ml-0">
-                <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
-                <img src="assets/imgs/speaker.png" class="float-left mr-4"/>
-                <h3 class="text-left pt-3">Andrew Chen</h3>
-                <p class="text-left">CEO - M&X  Ltd.</p>
+            <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
+            <div class="row">
+                <div class="speaker-card text-left ml-0 col-xl-7 mt-4">
+                    <img src="assets/imgs/speaker.png" class="float-left mr-4"/>
+                    <h3 class="text-left pt-3">Andrew Chen</h3>
+                    <p class="text-left">CEO - M&X  Ltd.</p>
+                </div>
+                <div class="about-speaker col-xl-5 mt-4">
+                    <button type="button" class="btn theme-btn">Request Contact</button>
+                    <button type="button" class="btn theme-btn mt-4">Request Video meet</button>
+                </div>
+                <hr/>
             </div>
-            <hr/>
-            <div class="about-speaker">
-                <h4>Profile</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <button type="button" class="btn theme-btn">Request Contact</button>
-            <button type="button" class="btn theme-btn ml-4">Request Video meet</button>
         </div>
         <div class="theme-modal p-4 modal" id="sponsor-modal">
             <a href="" data-dismiss="modal" class="close"><img src="assets/imgs/close.svg" class="w-100"/></a>
@@ -1082,10 +1146,14 @@ document.getElementById("notification-modal").style.display="none";
 }
     
 function showLabel(x) {
-    x.children[1].style.display = "block" ;
+    x.children[1].classList.add("elementToFadeIn");
+    x.children[1].classList.remove("elementToFadeOut");
 }
+    
 function hideLabel(x) {
-    x.children[1].style.display = "none" ;
+     x.children[1].classList.add("elementToFadeOut");
+    x.children[1].classList.remove("elementToFadeIn");
+    
 }
     function showAlert(){
      $('.alert').show();
@@ -1114,6 +1182,12 @@ window.onscroll = function() {
   }
 }
 
+function showDetails() {
+ $('.speaker-details').show();
+}
+function hideDetails() {
+ $('.speaker-details').hide();
+}
 
 </script>
     </body>
