@@ -241,10 +241,10 @@ ul.sm-logo li {
 }
 
 .style-bg {
-    background-image: url('assets/imgs/bg-new2.jpg');
+    background-image: url('assets/style-bg.png');
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     overflow-x: auto;
     overflow-y: auto;
