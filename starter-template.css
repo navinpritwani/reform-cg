@@ -241,10 +241,10 @@ ul.sm-logo li {
 }
 
 .style-bg {
-    background-image: url('assets/style-bg.png');
+    background-image: url('assets/imgs/bg-new2.jpg');
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     overflow-x: auto;
     overflow-y: auto;
@@ -1452,7 +1452,7 @@ a:focus {
 
 .live-event #speaker .col-xl-2 {
     padding: 0px;
-    margin-left: 1em;
+    margin-left: 1.5em;
     margin-right: 1em;
 }
 
@@ -1819,13 +1819,13 @@ input::placeholder {
 .speaker-details {
     width: 800px;
     margin: auto;
-    padding: 1em;
+    padding: 0.5em 1em;
     background-color: #0b0a2c;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 10px;
-    display: none;
+    opacity: 0;
 }
 
 .speaker-details h3 {
@@ -2033,6 +2033,7 @@ input::placeholder {
 
 .elementToFadeOut {
     opacity: 0 !important;
+    animation: fadeOut 0.5s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -2065,4 +2066,12 @@ input::placeholder {
 
 #notification-modal .chat-title {
     font-size: 14px;
+}
+
+.event-nav {
+    border-radius: 12px;
+}
+
+.reception {
+    margin-top: 2em;
 }
