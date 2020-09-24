@@ -1738,6 +1738,7 @@ input::placeholder {
 
 #register-modal {
     height: 70%;
+    max-width: 70%;
 }
 
 .profile-card {
