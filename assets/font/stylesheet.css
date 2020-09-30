@@ -76,3 +76,23 @@
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
+
+.chairs {
+    max-width: 1250px;
+    position: fixed;
+    bottom: -140px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.chairs img {
+    width: 100%;
+}
+
+.podium {
+    position: absolute;
+    left: 280px;
+    bottom: 200px;
+    z-index: 9;
+}

@@ -952,10 +952,14 @@ ul.sm-logo li {
 }
 
 .stage {
-    bottom: 0px;
+    bottom: 56px;
     height: 170px;
     position: fixed;
-    width: 100vw;
+    width: 90vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 8;
 }
 
 .stage-div {
@@ -970,7 +974,7 @@ ul.sm-logo li {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 150px;
+    bottom: 220px;
 }
 
 .screen img {
@@ -979,10 +983,10 @@ ul.sm-logo li {
 }
 
 .screen iframe {
-    height: 450px;
+    height: 430px;
     margin: 0 auto;
     border: 10px inset #282829;
-    width: 800px;
+    width: 57%;
 }
 
 .stall .back-card {
@@ -1347,10 +1351,12 @@ a:focus {
 }
 
 .stage-left-banner {
-    width: 8%;
     position: absolute;
-    bottom: 0px;
-    left: 10%;
+    bottom: -30px;
+    left: 48px;
+    z-index: -9;
+    height: 480px;
+    max-width: 280px;
 }
 
 .stage-left-banner img {
@@ -1359,7 +1365,7 @@ a:focus {
 }
 
 .stage-right-banner {
-    right: 10%;
+    right: 48px;
     left: auto;
 }
 
@@ -1818,7 +1824,6 @@ input::placeholder {
 }
 
 .speaker-details {
-    width: 800px;
     margin: auto;
     padding: 0.5em 1em;
     background-color: #0b0a2c;
@@ -1827,6 +1832,7 @@ input::placeholder {
     right: 0;
     bottom: 10px;
     opacity: 0;
+    width: 57%;
 }
 
 .speaker-details h3 {
@@ -1962,6 +1968,7 @@ input::placeholder {
 .infopic .display_infopic img {
     width: 315px;
     height: 210px;
+    box-shadow: 0px 0px 30px 0px #111045;
 }
 
 .firm-info {
