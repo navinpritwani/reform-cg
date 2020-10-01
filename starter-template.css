@@ -911,7 +911,7 @@ ul.sm-logo li {
 .attendee-card {
     background-color: #fff;
     border-radius: 6px;
-    padding: 0.5em;
+    padding: 1.0em 0.5em 0.5em;
     margin-bottom: 2em;
     text-align: center;
     min-height: 170px;
@@ -944,6 +944,8 @@ ul.sm-logo li {
     font-size: 14px;
     color: #1781F1;
     display: block;
+    width: 49%;
+    float: left;
 }
 
 #audi .stage img {
@@ -952,10 +954,10 @@ ul.sm-logo li {
 }
 
 .stage {
-    bottom: 56px;
+    bottom: 50px;
     height: 170px;
     position: fixed;
-    width: 90vw;
+    width: 86%;
     left: 0;
     right: 0;
     margin: auto;
@@ -974,7 +976,7 @@ ul.sm-logo li {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 220px;
+    bottom: 214px;
 }
 
 .screen img {
@@ -983,10 +985,10 @@ ul.sm-logo li {
 }
 
 .screen iframe {
-    height: 430px;
+    height: 30vw;
     margin: 0 auto;
     border: 10px inset #282829;
-    width: 57%;
+    width: 54%;
 }
 
 .stall .back-card {
@@ -1352,11 +1354,10 @@ a:focus {
 
 .stage-left-banner {
     position: absolute;
-    bottom: -30px;
-    left: 48px;
+    bottom: -40px;
+    left: 70px;
     z-index: -9;
-    height: 480px;
-    max-width: 280px;
+    width: 18.2%;
 }
 
 .stage-left-banner img {
@@ -1365,7 +1366,7 @@ a:focus {
 }
 
 .stage-right-banner {
-    right: 48px;
+    right: 70px;
     left: auto;
 }
 
@@ -1832,7 +1833,7 @@ input::placeholder {
     right: 0;
     bottom: 10px;
     opacity: 0;
-    width: 57%;
+    width: 54%;
 }
 
 .speaker-details h3 {
@@ -2081,5 +2082,4 @@ input::placeholder {
 }
 
 .reception {
-    margin-top: 2em;
 }

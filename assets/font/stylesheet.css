@@ -92,7 +92,8 @@
 
 .podium {
     position: absolute;
-    left: 280px;
-    bottom: 200px;
+    left: 140px;
+    bottom: 145px;
     z-index: 9;
+    width: 7%;
 }
