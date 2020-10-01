@@ -901,7 +901,7 @@ ul.sm-logo li {
 
 .reception .desk img {
     width: 100%;
-    margin-top: -2em;
+    margin-top: -10em;
 }
 
 .event-tabs .tablinks:focus {
@@ -1557,12 +1557,12 @@ a:focus {
 }
 
 .desklogo {
-    max-width: 200px;
+    max-width: 160px;
     position: absolute;
     left: 0px;
     right: 0px;
     margin: auto;
-    bottom: 7em;
+    bottom: 5em;
 }
 
 .label {
@@ -1617,7 +1617,7 @@ a:focus {
 
 .reception .event-banner {
     max-width: 600px;
-    max-height: 250px;
+    max-height: 360px;
     overflow: hidden;
 }
 
@@ -1677,7 +1677,7 @@ a:focus {
 }
 
 .exit-promt {
-    width: 40%;
+    width: 45%;
     position: absolute;
     bottom: 0;
     top: 0;
