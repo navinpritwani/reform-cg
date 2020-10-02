@@ -118,3 +118,23 @@
     border: 1px solid #2384ee;
     color: #2384ee;
 }
+
+.stall .front-card a:hover {
+    color: #2c89ee;
+}
+
+.reception .event-banner svg {
+}
+
+.reception .event-banner svg {
+}
+
+.live-event-bg {
+    background-image: url('../imgs/bg-new2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    overflow-x: auto;
+    overflow-y: auto;
+}

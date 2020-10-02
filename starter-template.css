@@ -901,7 +901,7 @@ ul.sm-logo li {
 
 .reception .desk img {
     width: 100%;
-    margin-top: -10em;
+    margin-top: -11em;
 }
 
 .event-tabs .tablinks:focus {
@@ -977,6 +977,8 @@ ul.sm-logo li {
     left: 0;
     right: 0;
     bottom: 214px;
+    margin: auto;
+    width: 92%;
 }
 
 .screen img {
@@ -988,38 +990,42 @@ ul.sm-logo li {
     height: 30vw;
     margin: 0 auto;
     border: 10px inset #282829;
-    width: 54%;
+    width: 60%;
 }
 
 .stall .back-card {
     background-color: #fff;
     border-radius: 0px;
     width: 100%;
-    height: 235px;
+    height: 200px;
     padding: 2em;
     position: relative;
     z-index: 0;
 }
 
 .stall .front-card {
-    background-color: #1781F1;
+    /* background-color: #1781F1 */
     border-radius: 20px;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: -3em;
-    height: 90px;
+    height: 110px;
     position: relative;
+    background-image: url('assets/imgs/stall-table.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
 }
 
 .stall {
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     position: relative;
 }
 
 .stall .back-card img {
-    width: 80%;
+    width: 60%;
     padding: 1em;
     margin: auto;
     text-align: center;
@@ -1033,15 +1039,15 @@ ul.sm-logo li {
 .stall .front-card h3 {
     font-family: plus_jakarta_displaymedium;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #0b0b2c;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 1.5em;
 }
 
 .stall .front-card a {
     font-family: plus_jakarta_displayregular;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #2c89ee;
     text-align: center;
     padding-top: 0em;
 }
@@ -1355,9 +1361,9 @@ a:focus {
 .stage-left-banner {
     position: absolute;
     bottom: -40px;
-    left: 70px;
     z-index: -9;
-    width: 18.2%;
+    max-width: 240px;
+    left: 30px;
 }
 
 .stage-left-banner img {
@@ -1366,7 +1372,7 @@ a:focus {
 }
 
 .stage-right-banner {
-    right: 70px;
+    right: 30px;
     left: auto;
 }
 
@@ -1518,6 +1524,7 @@ a:focus {
 
 #atendee-modal {
     max-height: 30%;
+    max-width: 50%;
 }
 
 #atendee-modal .speaker-card img {
@@ -1562,7 +1569,7 @@ a:focus {
     left: 0px;
     right: 0px;
     margin: auto;
-    bottom: 5em;
+    bottom: 4em;
 }
 
 .label {
@@ -1616,9 +1623,8 @@ a:focus {
 }
 
 .reception .event-banner {
-    max-width: 600px;
-    max-height: 360px;
-    overflow: hidden;
+    width: 100%;
+    margin-top: 2em;
 }
 
 .reception .event-banner iframe {
@@ -1833,7 +1839,7 @@ input::placeholder {
     right: 0;
     bottom: 10px;
     opacity: 0;
-    width: 54%;
+    width: 60%;
 }
 
 .speaker-details h3 {
