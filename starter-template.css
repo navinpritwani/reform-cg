@@ -987,7 +987,7 @@ ul.sm-logo li {
 }
 
 .screen iframe {
-    height: 30vw;
+    height: 28vw;
     margin: 0 auto;
     border: 10px inset #282829;
     width: 60%;
@@ -1360,10 +1360,10 @@ a:focus {
 
 .stage-left-banner {
     position: absolute;
-    bottom: -40px;
+    bottom: -50px;
     z-index: -9;
-    max-width: 240px;
-    left: 30px;
+    width: 19%;
+    right: 80%;
 }
 
 .stage-left-banner img {
@@ -1372,8 +1372,8 @@ a:focus {
 }
 
 .stage-right-banner {
-    right: 30px;
-    left: auto;
+    left: 80%;
+    right: auto;
 }
 
 .stall-backbutton {

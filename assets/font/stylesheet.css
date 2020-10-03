@@ -138,3 +138,21 @@
     overflow-x: auto;
     overflow-y: auto;
 }
+
+.screen .inside-banner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 72%;
+    width: 88%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.inside-banner img {
+    height: 100%;
+    width: auto !important;
+}
