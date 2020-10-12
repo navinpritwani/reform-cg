@@ -38,8 +38,12 @@ display: flex; margin-left: auto; margin-top: auto; margin-bottom: auto;">
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="#">Our Company</a>
                         </li>
-                        <li class="nav-item">
-                            <button type="submit" class="btn theme-btn">Login</button>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle profile-nav" data-toggle="dropdown" href="#" role="button">N </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">View Profile</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -59,73 +63,157 @@ display: flex; margin-left: auto; margin-top: auto; margin-bottom: auto;">
                     </div>
                     <div class="theme-card tabs-card mt-3">
                         <nav class="nav flex-column">
-                            <a class="nav-link active" href="#"><img src="assets/imgs/right-icon.svg">Videos</a>
+                            <a class="nav-link active cursor-pointer" onclick="showVideos()"><img src="assets/imgs/right-icon.svg">Videos</a>
                             <a class="nav-link" href="#"><img src="assets/imgs/right-icon.svg">Events</a>
-                            <a class="nav-link" href="#"><img src="assets/imgs/right-icon.svg">Workshops</a>
+                            <a class="nav-link cursor-pointer" onclick="showSubscription()"><img src="assets/imgs/right-icon.svg">Subscription</a>
                         </nav>
                     </div>
                 </div>
                 <div class="col-xl-9">
-                    <div class="row">
-                        <h3 class="theme-h3">All Videos</h3>
+                    <div id="video-list" role="tabpanel">
+                        <div class="row">
+                            <h3 class="theme-h3">All Videos</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="theme-card bg-white video-card">
+                                    <div class="overlay"></div>
+                                    <img src="assets/video-thumb.png"/>
+                                    <h3>All about Deep tech</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-4">
-                            <div class="theme-card bg-white video-card">
-                                <div class="overlay"></div>
-                                <img src="assets/video-thumb.png"/>
-                                <h3>All about Deep tech</h3>
+                    <div id="subscription-list" role="tabpanel" class="hide">
+                        <section>
+                            <h3 class="theme-h3">Subscription</h3>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 col-xl-4">
+                                        <div class="card theme-card bg-white">
+                                            <div class="card-body">
+                                                <div class="plan-name">
+                                                    Lite 
+</div>
+                                                <div class="plan-description">
+                                                    <div class="plan-price month">
+                                                        $19
+                                                        <sub> / month</sub>
+                                                    </div>
+                                                    <p>Great for personal users and the self-employed who are considering analytics and need branding.</p>
+                                                </div>
+                                                <div class="plan-description specs">
+                                                    1,000 Branded Links
+                                                    <br> 1+ User Seats
+                                                    <br> 1+ Custom Domains 
+                                                </div>
+                                                <div class="plan-cta">
+                                                    <p><a class="button" href="#" data-open="get-pro-modal" aria-controls="get-pro-modal" aria-haspopup="true" tabindex="0">Get Started</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-xl-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="plan-name">
+                                                    Basic 
+</div>
+                                                <div class="plan-description">
+                                                    <div class="plan-price month">
+                                                        $29
+                                                        <sub> / month</sub>
+                                                    </div>
+                                                    <p>Great for personal users and the self-employed who are considering analytics and need branding.</p>
+                                                </div>
+                                                <div class="plan-description specs">
+                                                    5,000 Branded Links
+                                                    <br> 3+ User Seats
+                                                    <br> 5+ Custom Domains 
+                                                </div>
+                                                <div class="plan-cta">
+                                                    <p><a class="button" href="#" data-open="get-pro-modal" aria-controls="get-pro-modal" aria-haspopup="true" tabindex="0">Get Started</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 col-xl-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="plan-name">
+                                                    Pro 
+</div>
+                                                <div class="plan-description">
+                                                    <div class="plan-price month">
+                                                        $99
+                                                        <sub> / month</sub>
+                                                    </div>
+                                                    <p>Great for personal users and the self-employed who are considering analytics and need branding.</p>
+                                                </div>
+                                                <div class="plan-description specs">
+                                                    20,000 Branded Links
+                                                    <br> 10+ User Seats
+                                                    <br> 10+ Custom Domains 
+                                                </div>
+                                                <div class="plan-cta">
+                                                    <p><a class="button" href="#" data-open="get-pro-modal" aria-controls="get-pro-modal" aria-haspopup="true" tabindex="0">Get Started</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <div class="theme-card bg-white video-card">
-                                <div class="overlay"></div>
-                                <img src="assets/video-thumb.png"/>
-                                <h3>All about Deep tech</h3>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <div class="theme-card bg-white video-card">
-                                <div class="overlay"></div>
-                                <img src="assets/video-thumb.png"/>
-                                <h3>All about Deep tech</h3>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <div class="theme-card bg-white video-card">
-                                <div class="overlay"></div>
-                                <img src="assets/video-thumb.png"/>
-                                <h3>All about Deep tech</h3>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <div class="theme-card bg-white video-card">
-                                <div class="overlay"></div>
-                                <img src="assets/video-thumb.png"/>
-                                <h3>All about Deep tech</h3>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <div class="theme-card bg-white video-card">
-                                <div class="overlay"></div>
-                                <img src="assets/video-thumb.png"/>
-                                <h3>All about Deep tech</h3>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <div class="theme-card bg-white video-card">
-                                <div class="overlay"></div>
-                                <img src="assets/video-thumb.png"/>
-                                <h3>All about Deep tech</h3>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <div class="theme-card bg-white video-card">
-                                <div class="overlay"></div>
-                                <img src="assets/video-thumb.png"/>
-                                <h3>All about Deep tech</h3>
-                            </div>
-                        </div>
+                            <!-- ./container-->
+                        </section>
                     </div>
                 </div>
             </div>
@@ -234,5 +322,15 @@ display: flex; margin-left: auto; margin-top: auto; margin-bottom: auto;">
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+	function showSubscription() {
+    	$('#subscription-list').show();
+        $('#video-list').hide();
+    }
+    function showVideos() {
+    	$('#subscription-list').hide();
+        $('#video-list').show();
+    }
+</script>
     </body>
 </html>

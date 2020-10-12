@@ -156,3 +156,51 @@
     height: 100%;
     width: auto !important;
 }
+
+.event-card:hover {
+    box-shadow: 0 5px 18px 0 rgba(11, 11, 44, 0.04), 0 1px 2px 0 rgba(11, 11, 44, 0.02), 0 3px 15px 0 rgba(52, 52, 255, 0.05);
+    -webkit-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.video-card:hover {
+    box-shadow: 0 5px 18px 0 rgba(11, 11, 44, 0.04), 0 1px 2px 0 rgba(11, 11, 44, 0.02), 0 3px 15px 0 rgba(52, 52, 255, 0.05);
+    -webkit-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97);
+}
+
+.profile-nav {
+    background-color: #2280e7;
+    border-radius: 50%;
+    color: #fff !important;
+    width: 40px;
+    height: 40px;
+    padding-left: 14px !important;
+    font-weight: 600;
+}
+
+.theme-card iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.video-play-card {
+    border-radius: 0px !important;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.video-play-card iframe {
+    width: 100%;
+    height: 640px;
+}
+
+.hide {
+    display: none;
+}

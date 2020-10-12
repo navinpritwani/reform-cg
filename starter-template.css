@@ -347,7 +347,7 @@ ul.sm-logo li {
     box-shadow: 0 0 0 0;
     position: relative;
     border-radius: 0px;
-    max-height: 460px;
+    max-height: 600px;
 }
 
 .event-slide .theme-card {
@@ -461,6 +461,7 @@ ul.sm-logo li {
     border-radius: 16px;
     position: relative;
     margin-bottom: 2em;
+    cursor: pointer;
 }
 
 .video-card .overlay {
@@ -2088,4 +2089,93 @@ input::placeholder {
 }
 
 .reception {
+}
+
+.dropdown-toggle::after {
+    margin-left: 18px;
+    color: #2280e7;
+}
+
+.card {
+    border-right: 1px #dde0e2 solid;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    background-color: white;
+    color: #56575b;
+    margin: 5px 0;
+    box-shadow: 0px 14px 94px rgba(15, 15, 182, 0.15);
+}
+
+.plan-name {
+    padding: 13px 0;
+    border-bottom: 1px #eff0f2 solid;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #464c50;
+    font-family: "Open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.plan-description {
+    padding: 15px;
+    line-height: normal;
+    min-height: 175px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.plan-price sub {
+    text-transform: none;
+    font-size: 16px;
+    bottom: 0;
+}
+
+.plan-price {
+    color: #56575b;
+    font-family: "Open sans";
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+sub {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.plan-description.specs {
+    min-height: 200px;
+    line-height: 20px;
+}
+
+.plan-cta {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+    min-height: 95px;
+
+    &:hover a {
+        opacity: 0.8;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.button,
+.button-primary {
+    background: #2a5bd7;
+    border-radius: 8px;
+    font-size: inherit;
+    color: white;
+    transition: background 100ms linear;
+    text-decoration: none;
+    line-height: normal;
+    outline: none !important;
+    padding: 0.6em 1em;
 }
