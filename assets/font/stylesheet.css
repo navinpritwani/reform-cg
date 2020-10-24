@@ -204,3 +204,27 @@
 .hide {
     display: none;
 }
+
+.leaflet3 {
+    top: -81px !important;
+}
+
+.leaflet2 {
+    top: -36px !important;
+}
+
+.leaflet4 {
+    top: -70px !important;
+}
+
+.leaflet5 {
+    top: -116px !important;
+}
+
+#networking-modal {
+    max-height: 80%;
+}
+
+#networking-modal iframe {
+    height: 490px;
+}
