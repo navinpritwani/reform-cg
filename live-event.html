@@ -175,9 +175,6 @@
             </div>
         </div>
         <div class="tabcontent" id="single-stall">
-            <div class="stall-back">
-                <img src="assets/imgs/floor.png"/>
-            </div>
             <div class="stand">
                 <img src="assets/imgs/stand_background_3.png"/>
                 <div class="info-video">
@@ -237,6 +234,12 @@
                     <a href=""><img src="assets/imgs/download.svg"/>Download Brochure</a>
                     <a href=""><img src="assets/imgs/chat.svg"/>Send Message</a>
                     <a href=""><img src="assets/imgs/contact.svg"/>Get Contact</a>
+                </div>
+                <div class="contact-info">
+                    <a data-toggle="modal" data-target="#atendee-modal" class="cursor-pointer"><img src="assets/imgs/info-icon.svg"/></a>
+                </div>
+                <div class="stall-expo-info">
+                    <a data-toggle="modal" data-target="#atendee-modal" class="cursor-pointer"><img src="assets/imgs/info-icon.svg"/></a>
                 </div>
             </div>
             <div class="stall-backbutton">
@@ -359,7 +362,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3><span>Samuel johnson</span><p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -367,7 +369,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -375,7 +376,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -383,7 +383,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -391,7 +390,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -399,7 +397,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -407,7 +404,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -415,7 +411,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -423,7 +418,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -431,7 +425,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -439,7 +432,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
                 <div class="col-xl-2">
@@ -447,7 +439,6 @@
                         <img src="assets/imgs/speaker.png"/>
                         <h3>Samuel johnson<p>Operation Manager at XYZ Comapany</p></h3>
                         <a href="">Chat</a>
-                        <a href="" data-toggle="modal" data-target="#atendee-modal">Meet</a>
                     </div>
                 </div>
             </div>
@@ -840,8 +831,8 @@
                         <h3 class="float-left">Fireside chat on Deep tech<br> <span> Despription</span></h3>
                         <hr/>
                         <p class="text-left">Speakers</p>
-                        <img src="assets/imgs/speaker.png"/>
-                        <img src="assets/imgs/speaker.png"/>
+                        <img src="assets/imgs/speaker.png" data-toggle="tooltip" title="A small tooltip" class="speaker-tooltip"/>
+                        <img src="assets/imgs/speaker.png" data-toggle="tooltip" title="A small tooltip" class="speaker-tooltip"/>
                         <a class="btn theme-btn float-right" href="#">Join Session</a>
                     </div>
                     <div class="theme-card agenda-card">
@@ -849,8 +840,8 @@
                         <h3 class="float-left">Fireside chat on Deep tech<br><span> Despription</span></h3>
                         <hr/>
                         <p class="text-left">Speakers</p>
-                        <img src="assets/imgs/speaker.png"/>
-                        <img src="assets/imgs/speaker.png"/>
+                        <img src="assets/imgs/speaker.png" data-toggle="tooltip" title="A small tooltip" class="speaker-tooltip"/>
+                        <img src="assets/imgs/speaker.png" data-toggle="tooltip" title="A small tooltip" class="speaker-tooltip"/>
                         <a class="btn theme-btn float-right" href="#">Join Session</a>
                     </div>
                 </div>
@@ -861,8 +852,6 @@
                 <div class="header">
                     <a onclick="chatList()" class="float-left"><img src="assets/imgs/back-icon.svg" class="w-100"/></a>
                     <h3 class="float-left">John Doe</h3>
-                    <a class="float-right"><img src="assets/imgs/video-icon.svg"/></a>
-                    <a data-toggle="modal" data-target="#atendee-modal" class="float-right mr-3"><img src="assets/imgs/info-icon.svg"/></a>
                     <hr class="float-left w-100"/>
                 </div>
                 <div class="chat-box bg-white">
@@ -925,8 +914,8 @@
                     <div class="input-group">
                         <input type="text" placeholder="Type a message" aria-describedby="button-addon2" class="form-control rounded-0 border-0 bg-light py-4">
                         <div class="input-group-append">
-                            <button id="button-addon2" type="submit" class="btn btn-link"> 
-                                <i class="fa fa-paper-plane"></i>
+                            <button id="button-addon2" type="submit" class="btn btn-link">
+                                <img src="assets/imgs/send-icon.svg"/> 
                             </button>
                         </div>
                     </div>
@@ -1019,8 +1008,7 @@
                     <p class="text-left">CEO - M&X  Ltd.</p>
                 </div>
                 <div class="about-speaker col-xl-5 mt-4">
-                    <button type="button" class="btn theme-btn">Request Contact</button>
-                    <button type="button" class="btn theme-btn mt-4">Request Video meet</button>
+                    <button type="button" class="btn theme-btn">Chat</button>
                 </div>
             </div>
         </div>
@@ -1223,6 +1211,15 @@ function hideDetails() {
   $('.speaker-details').removeClass('elementToFadeIn');
      $('.speaker-details').addClass('elementToFadeOut');
 }
+
+$('#example').click(function(){
+ $('#example').popover('show');
+});
+$(document).ready(function(){
+$(".speaker-tooltop").tooltip({
+        delay: {show: 0, hide: 2000}
+    });
+});
 
 </script>
     </body>

@@ -228,3 +228,23 @@
 #networking-modal iframe {
     height: 490px;
 }
+
+.contact-info img {
+    max-width: 20px;
+}
+
+.contact-info {
+    position: absolute;
+    top: 338px;
+    left: 378px;
+}
+
+.stall-expo-info img {
+    max-width: 20px;
+}
+
+.stall-expo-info {
+    position: absolute;
+    top: 348px;
+    left: 574px;
+}
