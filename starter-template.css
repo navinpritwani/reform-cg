@@ -713,7 +713,7 @@ ul.sm-logo li {
 
 .live-event .content h3 {
     font-family: plus_jakarta_displaymedium;
-    font-size: 20px;
+    font-size: 16px;
     color: #0B0A2C;
     margin-bottom: 8px;
 }
@@ -721,15 +721,15 @@ ul.sm-logo li {
 .live-event .content p span {
     padding-left: 0.5em;
     font-family: plus_jakarta_displaymedium;
-    font-size: 16px;
+    font-size: 12px;
     color: #0B0A2C;
     text-align: left;
 }
 
 .live-event .content p img {
-    width: 18px;
-    height: 18px;
-    margin-bottom: 5px;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 2px;
 }
 
 .live-event .content {
@@ -896,13 +896,13 @@ ul.sm-logo li {
 .reception .event-banner {
 }
 
-.reception .event-banner img {
+#reception .event-banner img {
     width: 100%;
 }
 
-.reception .desk img {
+#reception .desk img {
     width: 100%;
-    margin-top: -11em;
+    margin-top: -10em;
 }
 
 .event-tabs .tablinks:focus {
