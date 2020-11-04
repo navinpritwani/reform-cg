@@ -1729,7 +1729,7 @@ a:focus {
     width: 100%;
 }
 
-.chat-box form{
+.chat-box .input-group{
     margin-top: -4em;
 }
 
