@@ -902,7 +902,7 @@ ul.sm-logo li {
 }
 
 #reception .desk img {
-    width: 100%;
+    width: 105%;
     margin-top: -10em;
 }
 
@@ -1729,7 +1729,7 @@ a:focus {
 
 .messages-box,
 .chat-box {
-    height: 470px;
+    height: 60vh;
     overflow-y: scroll;
     width: 100%;
 }
