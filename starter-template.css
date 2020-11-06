@@ -1070,6 +1070,11 @@ ul.sm-logo li {
 .seat {
     padding-left: 1em;
     padding-right: 1em;
+    margin: 0 !important;
+}
+.seat .join-button {
+    float: none !important;
+    height: 65px !important;
 }
 
 .networking-card .seat img {
