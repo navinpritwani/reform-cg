@@ -648,7 +648,7 @@ ul.sm-logo li {
     font-family: plus_jakarta_displayregular;
     font-size: 16px;
     color: #0B0A2C;
-    text-align: center;
+    text-align: left;
 }
 
 .agenda-card h3 {
@@ -660,7 +660,7 @@ ul.sm-logo li {
 }
 
 .agenda-card hr {
-    margin-top: 3.3em;
+    margin-top: 4.3em;
 }
 
 .agenda-card img {
@@ -670,7 +670,10 @@ ul.sm-logo li {
     border-radius: 50%;
     margin-right: 1em;
 }
-
+.profileImage{
+    line-height: 54px !important;
+    font-size: 20px !important;
+}
 .registration-card {
     border-radius: 6px;
     background-color: #fff;
@@ -710,6 +713,7 @@ ul.sm-logo li {
     margin-top: 2em;
     padding: 1em;
     max-height: 140px;
+    min-height: 140px;
 }
 
 .live-event .content h3 {
@@ -1215,7 +1219,13 @@ ul.sm-logo li {
     margin-bottom: 1em;
     display: block;
 }
-
+.notificationlist .chat-title p b {
+    font-size: 14px !important;
+}
+.notificationlist .chat-title p {
+    font-size: 12px !important;
+    margin: 0 !important;
+}
 .chat-modal {
     position: absolute;
     background: #FFFFFF;
@@ -1250,6 +1260,15 @@ ul.sm-logo li {
     background-color: #0B0A2C;
     border-radius: 50%;
     float: left;
+}
+.chat-list .avatar-img p{
+    z-index: 999999999999;
+    font-size: 24px !important;
+    color: white!important;
+    font-weight: 800;
+    opacity: 1;
+    padding: 4px !important;
+    margin-left: 10px !important;
 }
 
 .chat-list h3 {
@@ -1607,6 +1626,7 @@ a:focus {
     font-size: 14px;
     color: #0B0A2C;
     opacity: 0.7;
+    width: 82%;
 }
 
 #sponsor-modal .about-speaker img {
