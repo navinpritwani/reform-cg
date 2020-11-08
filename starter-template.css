@@ -960,7 +960,7 @@ ul.sm-logo li {
 }
 
 .stage {
-    bottom: 8vh;
+    bottom: 50px;
     height: 170px;
     position: fixed;
     width: 86%;
@@ -976,13 +976,25 @@ ul.sm-logo li {
 #audi {
     z-index: 0;
 }
+@media only screen and (max-width: 660px) {
+    .screen{
+        transform: scale(0.9);
+        bottom: 190px;
+    }
+    .stage{
+        transform: scale(0.9);
+        bottom: 55px;
+        
+    }
+
+}
 
 .screen {
     text-align: center;
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 32vh;
+    bottom: 214px;
     margin: auto;
     width: 92%;
 }
