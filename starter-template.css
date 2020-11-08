@@ -828,6 +828,7 @@ ul.sm-logo li {
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.16);
     width: 60px;
     z-index: 9;
+    transform: scale(0.9);
 }
 
 .event-tabs ul {
@@ -1242,6 +1243,7 @@ ul.sm-logo li {
 .notificationlist .chat-title p {
     font-size: 12px !important;
     margin: 0 !important;
+    padding-top: 12px;
 }
 .chat-modal {
     position: absolute;
@@ -1639,6 +1641,7 @@ a:focus {
 }
 
 .agenda-card h3 span {
+    width: 80%;
     font-family: plus_jakarta_displayregular;
     font-size: 14px;
     color: #0B0A2C;
@@ -1730,17 +1733,21 @@ a:focus {
 }
 
 .exit-promt {
-    width: 45%;
+    width: 35%;
     position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
+    text-align: center;
     right: 0;
     margin: auto;
     z-index: 9;
     text-align: center;
     display: none;
-    max-height: 120px;
+    padding-left: 0;
+    padding-top: 30px;
+    max-height: 140px;
+    padding-right: 0;
 }
 
 ::-webkit-scrollbar {
