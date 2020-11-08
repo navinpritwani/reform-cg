@@ -979,11 +979,11 @@ ul.sm-logo li {
 @media only screen and (max-height: 660px) {
     .screen{
         transform: scale(0.9);
-        bottom: 190px;
+        bottom: 180px !important;
     }
     .stage{
         transform: scale(0.9);
-        bottom: 55px;
+        bottom: 45px !important;
         
     }
 
