@@ -960,7 +960,7 @@ ul.sm-logo li {
 }
 
 .stage {
-    bottom: 50px;
+    bottom: 8vh;
     height: 170px;
     position: fixed;
     width: 86%;
@@ -982,7 +982,7 @@ ul.sm-logo li {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 214px;
+    bottom: 32vh;
     margin: auto;
     width: 92%;
 }
