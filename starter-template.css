@@ -976,7 +976,7 @@ ul.sm-logo li {
 #audi {
     z-index: 0;
 }
-@media only screen and (max-height: 660px) {
+@media only screen and (max-height: 700px) {
     .screen{
         transform: scale(0.9);
         bottom: 180px !important;
