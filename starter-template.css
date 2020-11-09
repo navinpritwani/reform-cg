@@ -547,7 +547,9 @@ ul.sm-logo li {
     background: transparent;
     border-bottom: 3px solid #0b0a2b;
 }
-
+#speaker-modal .speaker-card{
+    min-height: auto !important;
+}
 .speaker-card {
     border-radius: 6px;
     background-color: #fff;
@@ -1546,9 +1548,12 @@ a:focus {
 .about-speaker p {
     opacity: 0.7;
     font-family: plus_jakarta_displayregular;
-    font-size: 14px;
+    font-size: 12px !important;
     color: #0B0A2C;
     text-align: left;
+}
+.about-speaker button {
+    margin-top: 0% !important;
 }
 
 .time {
