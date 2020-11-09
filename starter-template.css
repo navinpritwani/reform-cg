@@ -554,6 +554,8 @@ ul.sm-logo li {
     text-align: center;
     margin-bottom: 2em;
     padding: 0.5em;
+    min-height: 260px;
+    max-height: 260px;
 }
 
 .speaker-card img {
@@ -566,7 +568,7 @@ ul.sm-logo li {
 
 .speaker-card h3 {
     font-family: plus_jakarta_displaymedium;
-    font-size: 18px;
+    font-size: 16px;
     color: #0B0A2C;
     text-align: center;
 }
@@ -574,7 +576,7 @@ ul.sm-logo li {
 .speaker-card p {
     opacity: 0.7;
     font-family: plus_jakarta_displaylight;
-    font-size: 16px;
+    font-size: 12px;
     color: #0B0A2C;
     text-align: center;
     margin-bottom: 0px;
@@ -1507,7 +1509,7 @@ a:focus {
 
 .live-event #speaker .col-xl-2 {
     padding: 0px;
-    margin-left: 1.5em;
+    margin-left: 1em;
     margin-right: 1em;
 }
 
@@ -1604,14 +1606,13 @@ a:focus {
 
 .event-banner {
 }
+.desk{
+    text-align: center;
 
+}
 .desklogo {
     max-width: 160px;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    bottom: 4em;
+    
 }
 
 .label {
