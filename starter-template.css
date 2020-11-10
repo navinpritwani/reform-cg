@@ -209,6 +209,7 @@ ul.sm-logo li a {
 
 ul.sm-logo li a img {
     width: 16px;
+    padding: 0 !important;
 }
 
 ul.sm-logo li {
@@ -927,6 +928,9 @@ ul.sm-logo li {
 #reception .event-banner img {
     width: 100%;
 }
+#reception {
+    padding-top: 0 !important;
+}
 
 #reception .desk img {
     width: 105%;
@@ -1299,6 +1303,7 @@ ul.sm-logo li {
     font-size: 16px;
     color: #0B0A2C;
     text-align: left;
+    width: 80%;
 }
 
 .chat-modal .header h3 a {
@@ -1571,6 +1576,7 @@ a:focus {
 
 .about-speaker button {
     margin-top: 0% !important;
+    margin-bottom: 0% !important;
 }
 
 .time {
