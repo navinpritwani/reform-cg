@@ -574,9 +574,9 @@ ul.sm-logo li {
     padding: 1em !important;
     max-width: 140px;
 }
-.contact-info{
+.desk .contact-info{
     top: 290px !important;
-}
+} 
 .speaker-card h3 {
     font-family: plus_jakarta_displaymedium;
     font-size: 16px;
@@ -1276,6 +1276,9 @@ ul.sm-logo li {
 .notificationlist .chat-title p b {
     font-size: 14px !important;
 }
+.notificationlist hr{
+    border-color: transparent !important;
+}
 
 .notificationlist .chat-title p {
     font-size: 12px !important;
@@ -1308,8 +1311,11 @@ ul.sm-logo li {
 
 .chat-modal .header h3 a {
     width: 12px;
+    right: 20px;
     float: right;
     margin: 4px 6px 6px;
+    position: absolute;
+    top: 12px;
 }
 
 .chat-list .avatar-img {
@@ -1979,6 +1985,10 @@ input::placeholder {
     margin: auto;
     left: 0;
     right: 0;
+}
+
+.stand .contact-info{
+    top: 338px !important;
 }
 
 .stand img {
