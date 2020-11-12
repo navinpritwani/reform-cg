@@ -991,7 +991,7 @@ ul.sm-logo li {
 }
 
 .stage {
-    bottom: 50px;
+    bottom: 4vh;
     height: 170px;
     position: fixed;
     width: 86%;
@@ -1011,12 +1011,12 @@ ul.sm-logo li {
 @media only screen and (max-height: 700px) {
     .screen {
         transform: scale(0.9);
-        bottom: 180px !important;
+        bottom: 29vh !important;
     }
 
     .stage {
         transform: scale(0.9);
-        bottom: 45px !important;
+        bottom: 7vh !important;
     }
 }
 
@@ -1025,7 +1025,7 @@ ul.sm-logo li {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 214px;
+    bottom: 29vh;
     margin: auto;
     width: 92%;
 }
@@ -1292,6 +1292,10 @@ ul.sm-logo li {
 .notificationlist .chat-title {
     display: block !important;
 }
+.notificationlist {
+    overflow-x: scroll;
+    max-height: 66vh;
+}
 
 .chat-modal {
     position: fixed;
@@ -1326,11 +1330,11 @@ ul.sm-logo li {
 }
 
 .chat-list .avatar-img {
+    position: absolute;
     height: 42px;
     width: 42px;
     background-color: #0B0A2C;
     border-radius: 50%;
-    float: left;
 }
 
 .chat-list .avatar-img p {
@@ -1346,7 +1350,7 @@ ul.sm-logo li {
 .chat-list h3 {
     opacity: 0.7;
     font-family: plus_jakarta_displayregular;
-    font-size: 16px;
+    font-size: 14px;
     color: #0B0A2C;
     text-align: left;
     display: inline;
@@ -1362,11 +1366,13 @@ ul.sm-logo li {
 }
 
 .chat-title {
-    display: flex;
     margin-left: 55px;
+    padding-top: 10px;
     position: relative;
-    width: 68%;
-    margin-bottom: 1em;
+    width: 69%;
+}
+#chat-list1 .chat-title{
+    margin-top: 1em;
 }
 
 .chat-list .chat-title img {
@@ -1411,8 +1417,9 @@ a:focus {
 }
 
 .theme-modal .speaker-card img {
+    margin-top: 1em;
     max-width: 80px;
-    padding: 0;
+    padding: 0 !important;
 }
 
 .event-tabs .tablinks p {
