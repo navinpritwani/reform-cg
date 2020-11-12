@@ -1289,6 +1289,9 @@ ul.sm-logo li {
     margin: 0 !important;
     padding-top: 12px;
 }
+.notificationlist .chat-title {
+    display: block !important;
+}
 
 .chat-modal {
     position: fixed;
