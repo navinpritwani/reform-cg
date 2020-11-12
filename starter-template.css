@@ -1359,8 +1359,8 @@ ul.sm-logo li {
 }
 
 .chat-title {
-    float: left;
-    margin-left: 12px;
+    display: flex;
+    margin-left: 55px;
     position: relative;
     width: 68%;
     margin-bottom: 1em;
@@ -1861,7 +1861,10 @@ input::placeholder {
 
 #register-modal {
     height: 70%;
-    max-width: 70%;
+    max-width: 70%;     
+}
+#register-modal .theme-card img {
+    width: 100%;
 }
 
 .profile-card {
