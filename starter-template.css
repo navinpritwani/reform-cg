@@ -1018,6 +1018,10 @@ ul.sm-logo li {
         transform: scale(0.9);
         bottom: 7vh !important;
     }
+    .stand {
+        transform: scale(0.8);
+        bottom: 0vh;
+    }
 }
 
 .screen {
@@ -1630,8 +1634,8 @@ a:focus {
 }
 
 #atendee-modal {
-    max-height: 30%;
-    max-width: 50%;
+    max-height: 25%;
+    max-width: 45%;
 }
 
 #atendee-modal .speaker-card img {
@@ -1676,6 +1680,7 @@ a:focus {
 
 .desklogo {
     max-width: 160px;
+    margin-bottom: 2em;
 }
 
 .label {
