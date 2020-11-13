@@ -608,6 +608,7 @@ ul.sm-logo li {
     padding: 0;
     border-radius: 0;
     max-width: 16px;
+    margin-top: 0;
 }
 
 .speaker-card .sm-logo {
