@@ -494,7 +494,7 @@ ul.sm-logo li {
 
 .event-title .content h3 {
     font-family: plus_jakarta_displaybold;
-    font-size: 24px;
+    font-size: 20px;
     color: #0B0A2C;
     text-align: left;
 }
@@ -502,7 +502,7 @@ ul.sm-logo li {
 .event-title .content p span {
     opacity: 0.7;
     font-family: plus_jakarta_displaybold;
-    font-size: 18px;
+    font-size: 16px;
     color: #0B0A2C;
     text-align: left;
     padding-left: 0.7em;
@@ -539,8 +539,8 @@ ul.sm-logo li {
     font-size: 18px;
     color: #0B0A2C;
     text-align: center;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
     padding-bottom: 0.5em;
     border-radius: 0;
     border-bottom: 1px solid rgba(11,10,44,0.70);
@@ -629,7 +629,9 @@ ul.sm-logo li {
     text-align: center;
 }
 
-.sponsors {
+.tab-pane .sponsors {
+    text-align: center;
+    margin-top: 3em;
 }
 
 .date-card {
@@ -920,6 +922,8 @@ ul.sm-logo li {
 }
 .tab-pane .sponsors div img{
     padding: 2em !important;
+    max-width: 200px;
+    margin-bottom: 3em;
 }
 
 .reception .agenda-card p {
@@ -988,6 +992,7 @@ ul.sm-logo li {
     color: #0B0A2C;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
+    word-break: break-word;
 }
 
 .attendee-card a {
@@ -1024,6 +1029,30 @@ ul.sm-logo li {
     margin: auto;
     z-index: 8;
     bottom: 15vh;
+}
+.right-banner{
+    position: absolute;
+    max-width: 18.5%;
+    max-height: 320px;
+    top: 16px;
+    right: 17px;
+}
+.stage iframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1.5vh;
+    width: 58%;
+    height: 79%;
+}
+
+.left-banner {
+    position: absolute;
+    max-height: 320px;
+    max-width: 18.5%;
+    top: 16px;
+    left: 17px;
 }
 
 .stage-div {
@@ -1369,6 +1398,13 @@ ul.sm-logo li {
     background-color: #0B0A2C;
     border-radius: 50%;
 }
+.chat-list .chat-title{
+    padding-top: 10px;
+    position: relative;
+    width: 94%;
+    float: left;
+    display: flex;
+}
 
 .chat-list .avatar-img p {
     z-index: 999999999999;
@@ -1405,7 +1441,7 @@ ul.sm-logo li {
 }
 
 #chat-list1 .chat-title {
-    margin-top: 1.5em;
+    margin-top: 0;
     margin-bottom: 1.5em;
     padding-top: 10px;   
 }
@@ -1774,7 +1810,7 @@ a:focus {
 
 .reception .event-banner {
     width: 100%;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .reception .event-banner iframe {
@@ -1787,7 +1823,7 @@ a:focus {
     bottom: 3em;
     background-color: #0B0A2C;
     min-width: 120px;
-    z-index: 9999999;
+    z-index: 98;
 }
 
 .minSection {
@@ -1814,8 +1850,10 @@ a:focus {
 
 #notification-modal .chat-title {
     width: 100%;
-    margin-left: 0;
-    padding-left: 12px;
+    font-size: 14px;
+    background-color: #e9f2fd;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
 #help-modal {
@@ -2053,6 +2091,12 @@ input::placeholder {
 
 .stand img {
     width: 100%;
+}
+#expo{
+    margin-top: -2em;
+}
+#networking{
+    margin-top: -2em;
 }
 
 .info-video {
