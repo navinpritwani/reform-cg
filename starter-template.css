@@ -574,9 +574,11 @@ ul.sm-logo li {
     padding: 1em !important;
     max-width: 140px;
 }
-.desk .contact-info{
+
+.desk .contact-info {
     top: 290px !important;
-} 
+}
+
 .speaker-card h3 {
     font-family: plus_jakarta_displaymedium;
     font-size: 16px;
@@ -730,6 +732,7 @@ ul.sm-logo li {
 .registration-card p {
     margin-bottom: 0.4em;
 }
+
 .saveandcont {
     margin-right: 12px;
 }
@@ -932,6 +935,7 @@ ul.sm-logo li {
 #reception .event-banner img {
     width: 100%;
 }
+
 #reception {
     padding-top: 0 !important;
 }
@@ -984,6 +988,18 @@ ul.sm-logo li {
     width: 100%;
     float: left;
 }
+#atendee-modal .speaker-card {
+    min-height: auto;
+    max-height: auto;
+    margin-top: 0 !important;
+}
+#atendee-modal .about-speaker {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0 !important;
+}
 
 #audi .stage img {
     overflow: hidden;
@@ -991,14 +1007,13 @@ ul.sm-logo li {
 }
 
 .stage {
-    bottom: 4vh;
-    height: 170px;
     position: fixed;
-    width: 86%;
+    width: 85%;
     left: 0;
     right: 0;
     margin: auto;
     z-index: 8;
+    bottom: 15vh;
 }
 
 .stage-div {
@@ -1016,8 +1031,9 @@ ul.sm-logo li {
 
     .stage {
         transform: scale(0.9);
-        bottom: 7vh !important;
+        bottom: 11vh !important;
     }
+
     .stand {
         transform: scale(0.8);
         bottom: 0vh;
@@ -1029,7 +1045,7 @@ ul.sm-logo li {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 29vh;
+    top: 25vh;
     margin: auto;
     width: 92%;
 }
@@ -1284,7 +1300,8 @@ ul.sm-logo li {
 .notificationlist .chat-title p b {
     font-size: 14px !important;
 }
-.notificationlist hr{
+
+.notificationlist hr {
     border-color: transparent !important;
 }
 
@@ -1293,11 +1310,14 @@ ul.sm-logo li {
     margin: 0 !important;
     padding-top: 12px;
 }
+
 .notificationlist .chat-title {
     display: block !important;
 }
+
 .notificationlist {
-    overflow-x: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     max-height: 66vh;
 }
 
@@ -1371,12 +1391,14 @@ ul.sm-logo li {
 
 .chat-title {
     margin-left: 55px;
-    padding-top: 10px;
     position: relative;
     width: 69%;
 }
-#chat-list1 .chat-title{
-    margin-top: 1em;
+
+#chat-list1 .chat-title {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding-top: 10px;   
 }
 
 .chat-list .chat-title img {
@@ -1876,8 +1898,9 @@ input::placeholder {
 
 #register-modal {
     height: 70%;
-    max-width: 70%;     
+    max-width: 70%;
 }
+
 #register-modal .theme-card img {
     width: 100%;
 }
@@ -1998,7 +2021,7 @@ input::placeholder {
 }
 
 .stand {
-    transform: scale(0.9);
+    transform: scale(0.88);
     position: absolute;
     border: 0px;
     text-align: center;
@@ -2009,7 +2032,7 @@ input::placeholder {
     right: 0;
 }
 
-.stand .contact-info{
+.stand .contact-info {
     top: 338px !important;
 }
 
@@ -2310,4 +2333,12 @@ sub {
     line-height: normal;
     outline: none !important;
     padding: 0.6em 1em;
+}
+
+.left-banner {
+    position: absolute;
+    max-height: 320px;
+    max-width: 18.5%;
+    top: 16px;
+    left: 17px;
 }
