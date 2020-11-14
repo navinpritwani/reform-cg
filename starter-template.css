@@ -1715,6 +1715,9 @@ a:focus {
 #sponsor-modal {
     max-height: 360px;
 }
+#sponsor-modal row div {
+    height: auto !important;
+}
 
 #sponsor-modal h3 {
     font-family: plus_jakarta_displaymedium;
@@ -1724,6 +1727,10 @@ a:focus {
 
 #sponsor-modal img {
     width: 100%;
+}
+
+.tab-pane .agenda-card hr{
+    display: none;
 }
 
 .video-frame {
@@ -1933,6 +1940,7 @@ input::placeholder {
 }
 
 .single-chat .header h3 {
+    
 }
 
 .single-chat .header h3 {
