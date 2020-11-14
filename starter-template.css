@@ -1796,6 +1796,7 @@ a:focus {
 }
 .agenda-card h3 span p{
     font-size: 12px;
+    margin-top: 4px;
 }
 
 #sponsor-modal .about-speaker img {
@@ -1940,7 +1941,6 @@ input::placeholder {
 }
 
 .single-chat .header h3 {
-    
 }
 
 .single-chat .header h3 {
